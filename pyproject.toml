@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "depauw_university_campuslabs_extension"
+version = "0.1.0"
+description = "Quick Search Upcoming Events on DePauw CampusLabs"
+authors = ["joshhn <duy.huynhngoc.05@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tigerhacks2023_dpu"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.4.0"
+beautifulsoup4 = "^4.12.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+pylint = "^2.16.3"
+pre-commit = "^3.1.1"
+pyright = "^1.1.296"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+extension-pkg-whitelist="pydantic" # Pylint cannot lint C extension modules https://stackoverflow.com/a/67560637
+
+[tool.pyright]
+exclude = [
+    "**/__pycache__",
+]
+reportOptionalMemberAccess = false
+reportGeneralTypeIssues = false
+
+[tool.pydocstyle]
+ignore = [
+    "D104", # Docstring in public package.
+    "D107", # Doctstring in __init__.
+    "D203", # One blank line required before class docstring.
+    "D212", # Multi-line docstring summary should start at the first line.
+]
