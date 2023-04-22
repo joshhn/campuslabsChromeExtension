@@ -18,39 +18,51 @@ class CampusLabsScraper:
     Attributes
     ----------
     url : str
-        first name of the person
-    surname : str
-        family name of the person
-    age : int
-        age of the person
+        the base url to campuslabs
+    event_url : str
+        the base url to a specific event
+    driver : Any
+        the webdriver used to access webpage
+    events_list : list
+        the events list output
 
     Methods
     -------
-    info(additional=""):
-        Prints the person's name and age.
+    get_button():
+        Click the load more button to load more entries.
+    scroll_down():
+        Scroll the page down so most recent entries can be viewed.
+    export_data():
+        Export data to json file.
+    get_reload_times() -> int:
+        Get number of times to reload the page.
+    get_reload_times() -> int:
+        Get number of times to reload the page.
+    create_events_list() -> list:
+        Return the events list.
 
     """
 
     def __init__(self, base_url, base_event_url, used_driver):
-        """Return that the server is healthy."""
+        """Initialize attributes of class."""
         self.url = base_url
         self.event_url = base_event_url
         self.driver = used_driver
         self.events_list = self.create_events_list()
 
     def get_button(self):
-        """Return that the server is healthy."""
+        """Click the load more button to load more entries."""
         self.driver.execute_script(
             "const buttons = document.getElementsByTagName('button');"
             + "buttons[buttons.length - 1].click()"
         )
 
     def scroll_down(self):
-        """Return that the server is healthy."""
+        """Scroll the page down so most recent entries can be viewed."""
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
     def export_data(self):
-        """Return that the server is healthy."""
+        """Export data to json file."""
         with open(
             "./data-scraper/campuslabs_events_data.json", "w+", encoding="utf-8"
         ) as output_file:
@@ -58,7 +70,7 @@ class CampusLabsScraper:
             print(f"{len(self.events_list)} events exported to file")
 
     def get_reload_times(self) -> int:
-        """Return that the server is healthy."""
+        """Get number of times to reload the page."""
         num_of_events = (
             self.driver.find_element(
                 By.XPATH, "//div[@id='event-discovery-list']/following-sibling::div"
@@ -70,7 +82,7 @@ class CampusLabsScraper:
         return math.ceil(int(num_of_events) / 15) - 1
 
     def create_events_list(self) -> list:
-        """Return that the server is healthy."""
+        """Return the events list."""
         print("Running...")
         self.driver.get(self.url)
         time.sleep(2)
@@ -121,9 +133,9 @@ class CampusLabsScraper:
 
 URL = "https://depauw.campuslabs.com/engage/events"
 EVENT_URL = "https://depauw.campuslabs.com/engage/event/"
-
 service = Service(executable_path="./data-scraper/chromedriver")
 chrome_driver = webdriver.Chrome(service=service)
+
 scraper = CampusLabsScraper(URL, EVENT_URL, chrome_driver)
 scraper.export_data()
 chrome_driver.quit()
