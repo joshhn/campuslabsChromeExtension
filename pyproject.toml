@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Quick Search Upcoming Events on DePauw CampusLabs"
 authors = ["joshhn <duy.huynhngoc.05@gmail.com>"]
 readme = "README.md"
-packages = [{include = "tigerhacks2023_dpu"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
