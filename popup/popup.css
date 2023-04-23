@@ -23,7 +23,7 @@ body {
 header {
   padding: 0 15px;
 }
-  
+
 .event__info {
   max-height: 327px;
   overflow-y: auto;
