@@ -19,7 +19,7 @@ body {
 
 header {
   --start: 15%;
-  
+
   height: 130px;
   background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(120, 221, 114, 0.8) 10%, rgba(120, 221, 114, 0.8) 17%), linear-gradient(to right, #6bed89, #78dd72);
   color: #fff;
@@ -35,9 +35,9 @@ header {
   right: calc(var(--start) * .75);
   transform: translateY(-50%);
   text-transform: uppercase;
-  margin: 0;    
+  margin: 0;
 }
-  
+
 .event__info {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
@@ -45,7 +45,7 @@ header {
   display: grid;
   row-gap: 8px;
 }
-  
+
 .event__item {
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ header {
   cursor: pointer;
   background-color: #fff;
 }
-  
+
 .event__name {
   color: #302c2c;
   font-weight: 600;
@@ -63,19 +63,19 @@ header {
   letter-spacing: 0.64px;
   margin-left: 12px;
 }
-  
+
 .event__from {
   color: #302c2c;
   font-size: 20px;
   margin-left: 12px;
 }
-  
+
 .event__to {
   color: #302c2c;
   font-size: 20px;
   margin-left: 12px;
 }
-  
+
 .event__location {
   color: #302c2c;
   font-size: 20px;
