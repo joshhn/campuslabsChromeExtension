@@ -5,3 +5,6 @@ dist/
 
 # VS Code config
 .vscode
+
+# Desktop Services Store file on macOS
+.DS_Store
