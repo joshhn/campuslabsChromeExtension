@@ -1,33 +1,5 @@
 [
     {
-        "event_name": "Faculty Achievement Celebration & Author Signing",
-        "event_time_from": "Friday, April 21 2023 at 4:00 PM",
-        "event_time_to": "Friday, April 21 2023 at 6:00 PM",
-        "event_location": "Wood Study, Roy O. West Library, DePauw University",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9002088"
-    },
-    {
-        "event_name": "Senior Studio Art Exhibition",
-        "event_time_from": "Friday, April 21 2023 at 5:00 PM",
-        "event_time_to": "Friday, April 21 2023 at 6:00 PM",
-        "event_location": "The Richard E. Peeler Art Center, Auditorium",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9052850"
-    },
-    {
-        "event_name": "The Seagull (Stoppard, trans.)",
-        "event_time_from": "Friday, April 21 2023 at 7:30 PM",
-        "event_time_to": "Friday, April 21 2023 at 10:00 PM",
-        "event_location": "The Green Center for Performing Arts, Moore Theatre",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8481500"
-    },
-    {
-        "event_name": "Little 5 Tabling",
-        "event_time_from": "Saturday, April 22 2023 at 12:45 PM",
-        "event_time_to": "Saturday, April 22 2023 at 2:45 PM",
-        "event_location": "Corner of East Hanna and South Locust",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9061436"
-    },
-    {
         "event_name": "4/22 Percussion and Saxophone Studios Recital",
         "event_time_from": "Saturday, April 22 2023 at 4:00 PM",
         "event_time_to": "Saturday, April 22 2023 at 6:00 PM",
@@ -68,6 +40,13 @@
         "event_time_to": "Sunday, April 23 2023 at 9:00 PM",
         "event_location": "the Inn",
         "event_url": "https://depauw.campuslabs.com/engage/event/8945507"
+    },
+    {
+        "event_name": "DePauw Student Investment Group Meeting",
+        "event_time_from": "Monday, April 24 2023 at 11:30 AM",
+        "event_time_to": "Monday, April 24 2023 at 12:30 PM",
+        "event_location": "Julian 147",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9074321"
     },
     {
         "event_name": "Student Awards Convocation",
@@ -252,6 +231,13 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/8918868"
     },
     {
+        "event_name": "DePauw Student Investment Group Meeting",
+        "event_time_from": "Monday, May 1 2023 at 11:30 AM",
+        "event_time_to": "Monday, May 1 2023 at 12:30 PM",
+        "event_location": "Julian 147",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9074322"
+    },
+    {
         "event_name": "YoungLife Club",
         "event_time_from": "Monday, May 1 2023 at 8:00 PM",
         "event_time_to": "Monday, May 1 2023 at 9:30 PM",
@@ -397,5 +383,12 @@
         "event_time_to": "Wednesday, February 7 2024 at 5:30 PM",
         "event_location": "The Richard E. Peeler Art Center, Visual Arts Gallery",
         "event_url": "https://depauw.campuslabs.com/engage/event/9071349"
+    },
+    {
+        "event_name": "2024 Senior Student Art Exhibition, Opening Reception & Artist Talks",
+        "event_time_from": "Friday, April 19 2024 at 5:00 PM",
+        "event_time_to": "Friday, April 19 2024 at 6:00 PM",
+        "event_location": "The Richard E. Peeler Art Center",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9073706"
     }
 ]
