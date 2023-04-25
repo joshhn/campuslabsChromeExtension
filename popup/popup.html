@@ -6,22 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Upcoming Events at DePauw</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="popup.css">
-    <script src="https://kit.fontawesome.com/e13e4a45c1.js" crossorigin="anonymous"></script>
+    <script src="../scripts/icon-script.js"></script>
 </head>
 
 <body class="main-container">
     <div class="event">
-        <header>
+        <header class="event__header">
+          <img src="../images/depauw-icon.png" alt="DePauw Icon" width="60" height="60">
           <h1 class="event__title">Upcoming Events</h1>
         </header>
 
         <main class="event__info" id="event__info">
         </main>
+
+        <div class="event__setting">
+          <div class="event__toggle">
+            <input type="checkbox" id="notiId"/>
+            <label></label>
+        </div>
+        <p>Get daily notifications</p>
+        </div>
       </div>
 </body>
-<script src="popup.js"></script>
+<script src="./popup.js"></script>
 </html>
