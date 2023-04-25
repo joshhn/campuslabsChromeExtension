@@ -1,6 +1,7 @@
 """The scraper script to crawl upcoming events data from campuslabs."""
 import json
 import math
+import re
 import time
 
 from bs4 import BeautifulSoup
@@ -108,7 +109,7 @@ class CampusLabsScraper:
         for url in event_url_list:
             specific_url = self.event_url + url.rsplit("/", 1)[1]
             self.driver.get(specific_url)
-            time.sleep(2)
+            time.sleep(5)
 
             soup = BeautifulSoup(self.driver.page_source, "lxml")
 
@@ -116,6 +117,11 @@ class CampusLabsScraper:
             event_time_from = soup.find_all("p")[0].contents[0]
             event_time_to = soup.find_all("p")[1].contents[0]
             event_location = soup.find_all("p")[2].string
+            icon_img = soup.find_all("img")
+            event_icon = "None"
+            if icon_img:
+                event_icon = icon_img[len(icon_img) - 1]["src"]
+            print(event_icon)
 
             temp = {}
             temp["event_name"] = str(event_name).strip()
@@ -123,6 +129,14 @@ class CampusLabsScraper:
             temp["event_time_to"] = str(event_time_to).strip()
             temp["event_location"] = str(event_location).strip()
             temp["event_url"] = str(specific_url).strip()
+            if re.search(
+                "^https://se-images.campuslabs.com/clink/images/.*?preset=small-sq$",
+                event_icon,
+            ):
+                event_icon = str(event_icon).strip()
+                temp["event_icon"] = event_icon[: len(event_icon) - 16]
+            else:
+                temp["event_icon"] = "None"
             events_list.append(temp)
 
             # print(f'{event_name} happens from {event_time_from} '

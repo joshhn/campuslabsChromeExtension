@@ -1,3 +1,21 @@
+const toggleElement = document.getElementById("notiId")
+toggleElement.addEventListener("click", () => {
+  if(toggleElement.checked){
+    chrome.runtime.sendMessage({noti_status: "ON"})
+  }else {
+    chrome.runtime.sendMessage({noti_status: "OFF"})
+  }
+});
+
+chrome.storage.local.get("noti_status, events", (result) => {
+  const {noti_status} = result;
+  if (noti_status === "ON") {
+    toggleElement.checked = true;
+  }else{
+    toggleElement.checked = false;
+  }
+})
+
 document.addEventListener('DOMContentLoaded', function() {
   fetch('../data-scraper/campuslabs_events_data.json')
   .then(function (response) {
@@ -21,7 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
       var event__icon = document.createElement("img");
       event__icon.className = "event__icon";
-      event__icon.src = "https://se-images.campuslabs.com/clink/images/5ab4dca2-9eb8-4c3a-b4b9-b1ab1ebe82fbd09f02aa-94a5-4f09-adb9-76bad47e6b51.jpg?preset=med-sq"
+      if (data[i].event_icon === "None") {
+        event__icon.src = "../images/icon128.png"
+      } else {
+        event__icon.src = data[i].event_icon
+      }
+
 
       var event__details = document.createElement("div");
       event__details.className = "event__details";
@@ -44,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       var event__calendar = document.createElement("div");
       event__calendar.className = "event__calendar";
-      event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-2xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
+      event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
       event__calendar.addEventListener("click", addToCalendar);
 
       event__item.appendChild(event__icon);
