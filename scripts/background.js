@@ -1,28 +1,29 @@
 import fetchEvents from "../api/fetchEventsData.js"
 
-const NOTIFICATION_ALARM_NAME = "NOTIFICATION_ALARM"
 const UPDATE_DATA_ALARM_NAME = "UPDATE_DATA_ALARM"
 const DAILY_NOTIFICATION_NAME = "DAILY_NOTIFICATION"
-const DAY_IN_MINUTES = 1440.0
+const DAY_IN_MINUTES = 1.0
 
 chrome.runtime.onInstalled.addListener(() => {
   fetchEvents()
   createAlarm(UPDATE_DATA_ALARM_NAME, DAY_IN_MINUTES);
-  console.log("Alarm for updating data created!")
+  console.log("Alarm for updating data created!");
+  chrome.storage.local.set({notification_status: "OFF"});
 })
 
 chrome.runtime.onMessage.addListener(data => {
   chrome.storage.local.set(data)
-  if(data.notification_status === "ON"){
+  if(data.popupOpen) {
+    changeBadge('', '#F55050');
+  } else if(data.notification_status === "ON"){
     turnNotificationOn();
-  }else {
+  } else {
     turnNotificationOff();
   }
 });
 
 const turnNotificationOn = () => {
   console.log("Received on");
-  createAlarm(NOTIFICATION_ALARM_NAME, DAY_IN_MINUTES);
 }
 
 const turnNotificationOff = () => {
@@ -33,7 +34,7 @@ const turnNotificationOff = () => {
 
 const createAlarm = (alarmName, alarmPeriod) => {
   console.log("Alarm is created!")
-  chrome.alarms.get(alarmName, existingAlarm => {
+  chrome.alarms.get(alarmName, (existingAlarm) => {
     if(!existingAlarm){
       chrome.alarms.create(alarmName, {periodInMinutes: alarmPeriod});
     }
@@ -46,8 +47,15 @@ const stopAlarm = (alarmName) => {
 }
 
 chrome.alarms.onAlarm.addListener(() => {
-  console.log("Alarm is working...")
-  createNotification(DAILY_NOTIFICATION_NAME)
+  chrome.storage.local.get("notification_status", (result) => {
+    const {notification_status} = result;
+    if (notification_status === "ON") {
+      createNotification(DAILY_NOTIFICATION_NAME);
+    }
+    console.log("Alarm is working...");
+    changeBadge(' ', '#F55050');
+    fetchEvents();
+  })
 })
 
 const createNotification = (notificationName) => {
@@ -70,3 +78,9 @@ chrome.notifications.onClicked.addListener(() => {
   console.log("Notification is clicked");
   chrome.tabs.create({ url: "https://depauw.campuslabs.com/engage/events"})
 })
+
+const changeBadge = (badgeText, badgeColor) => {
+  chrome.action.setBadgeText({text: badgeText}, () => {
+    chrome.action.setBadgeBackgroundColor({color: badgeColor})
+  })
+};
