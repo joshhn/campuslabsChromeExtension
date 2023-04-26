@@ -8,6 +8,8 @@ chrome.storage.local.get(["notification_status", "events_data"], (result) => {
   displayData(events_data)
 })
 
+chrome.runtime.sendMessage({popupOpen: true});
+
 const toggleElement = document.getElementById("notificationId")
 toggleElement.addEventListener("click", () => {
   if(toggleElement.checked){

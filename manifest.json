@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "DePauw University CampusLabs Extension",
+  "name": "DePauw University CampusLabs Chrome Extension",
   "description": "Quick Search Upcoming Events on DePauw University CampusLabs",
   "version": "1.0.0",
   "icons": {
