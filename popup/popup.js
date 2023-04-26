@@ -20,6 +20,15 @@ toggleElement.addEventListener("click", () => {
 const displayData = (data) => {
   var mainContainer = document.getElementById("event__info");
 
+  if (data.length == 0) {
+    var event__item = document.createElement("div");
+    event__item.className = "event__item";
+    event__item.innerText = "No Upcoming Events";
+    event__item.style.justifyContent = "center";
+    event__item.style.fontSize = "1rem";
+    mainContainer.appendChild(event__item);
+  }
+
   for (var i = 0; i < data.length; i++) {
     var event__item = document.createElement("a");
     event__item.className = "event__item";
@@ -55,7 +64,7 @@ const displayData = (data) => {
 
     var event__calendar = document.createElement("div");
     event__calendar.className = "event__calendar";
-    event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
+    event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-2xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
     event__calendar.addEventListener("click", addToCalendar);
 
     event__item.appendChild(event__icon);
