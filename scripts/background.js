@@ -1,12 +1,12 @@
-// import fetchEvents from "../api/fetchEventsData.js"
+import fetchEvents from "../api/fetchEventsData.js"
 
 const NOTIFICATION_ALARM_NAME = "NOTIFICATION_ALARM"
 const UPDATE_DATA_ALARM_NAME = "UPDATE_DATA_ALARM"
 const DAILY_NOTIFICATION_NAME = "DAILY_NOTIFICATION"
 
-// chrome.runtime.onInstalled.addListener(details => {
-//   fetchEvents()
-// })
+chrome.runtime.onInstalled.addListener(details => {
+  fetchEvents()
+})
 
 chrome.runtime.onMessage.addListener(data => {
   chrome.storage.local.set(data)
