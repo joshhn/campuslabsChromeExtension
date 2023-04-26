@@ -62,3 +62,8 @@ const stopNotification = (notificationName) => {
   console.log("Notification is stopped!")
   chrome.notifications.clear(notificationName)
 }
+
+chrome.notifications.onClicked.addListener(() => {
+  console.log("Notification is clicked");
+  chrome.tabs.create({ url: "https://depauw.campuslabs.com/engage/events"})
+})
