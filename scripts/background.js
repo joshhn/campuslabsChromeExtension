@@ -52,7 +52,7 @@ const createNotification = (notificationName) => {
   chrome.notifications.create(notificationName,
     {
       title: "Wassup!!!",
-      message: "There are new upcoming events on campus. Let's check it out!",
+      message: "There are upcoming events on campus. Let's check it out!",
       iconUrl: "../images/depauw-icon.png",
       type: "basic"
     })
