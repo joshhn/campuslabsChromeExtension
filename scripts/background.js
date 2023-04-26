@@ -3,9 +3,12 @@ import fetchEvents from "../api/fetchEventsData.js"
 const NOTIFICATION_ALARM_NAME = "NOTIFICATION_ALARM"
 const UPDATE_DATA_ALARM_NAME = "UPDATE_DATA_ALARM"
 const DAILY_NOTIFICATION_NAME = "DAILY_NOTIFICATION"
+const DAY_IN_MINUTES = 1440.0
 
-chrome.runtime.onInstalled.addListener(details => {
+chrome.runtime.onInstalled.addListener(() => {
   fetchEvents()
+  createAlarm(UPDATE_DATA_ALARM_NAME, DAY_IN_MINUTES);
+  console.log("Alarm for updating data created!")
 })
 
 chrome.runtime.onMessage.addListener(data => {
@@ -19,7 +22,7 @@ chrome.runtime.onMessage.addListener(data => {
 
 const turnNotificationOn = () => {
   console.log("Received on");
-  createAlarm(NOTIFICATION_ALARM_NAME);
+  createAlarm(NOTIFICATION_ALARM_NAME, DAY_IN_MINUTES);
 }
 
 const turnNotificationOff = () => {
@@ -28,11 +31,11 @@ const turnNotificationOff = () => {
   stopNotification(DAILY_NOTIFICATION_NAME)
 }
 
-const createAlarm = (alarmName) => {
+const createAlarm = (alarmName, alarmPeriod) => {
   console.log("Alarm is created!")
   chrome.alarms.get(alarmName, existingAlarm => {
     if(!existingAlarm){
-      chrome.alarms.create(alarmName, {periodInMinutes: 1.0});
+      chrome.alarms.create(alarmName, {periodInMinutes: alarmPeriod});
     }
   })
 }
