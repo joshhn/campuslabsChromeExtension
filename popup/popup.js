@@ -1,20 +1,20 @@
-const toggleElement = document.getElementById("notiId")
-toggleElement.addEventListener("click", () => {
-  if(toggleElement.checked){
-    chrome.runtime.sendMessage({noti_status: "ON"})
-  }else {
-    chrome.runtime.sendMessage({noti_status: "OFF"})
-  }
-});
-
-chrome.storage.local.get("noti_status, events", (result) => {
-  const {noti_status} = result;
-  if (noti_status === "ON") {
+chrome.storage.local.get("notification_status", (result) => {
+  const {notification_status} = result;
+  if (notification_status === "ON") {
     toggleElement.checked = true;
   }else{
     toggleElement.checked = false;
   }
 })
+
+const toggleElement = document.getElementById("notificationId")
+toggleElement.addEventListener("click", () => {
+  if(toggleElement.checked){
+    chrome.runtime.sendMessage({notification_status: "ON"})
+  }else {
+    chrome.runtime.sendMessage({notification_status: "OFF"})
+  }
+});
 
 document.addEventListener('DOMContentLoaded', function() {
   fetch('../data-scraper/campuslabs_events_data.json')
