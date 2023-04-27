@@ -147,7 +147,7 @@ class CampusLabsScraper:
 
 URL = "https://depauw.campuslabs.com/engage/events"
 EVENT_URL = "https://depauw.campuslabs.com/engage/event/"
-service = Service(executable_path="./data-scraper/chromedriver")
+service = Service(executable_path="./data-scraper/chromedriver_linux")
 chrome_driver = webdriver.Chrome(service=service)
 
 scraper = CampusLabsScraper(URL, EVENT_URL, chrome_driver)
