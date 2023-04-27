@@ -1,15 +1,3 @@
-chrome.storage.local.get(["notification_status", "events_data"], (result) => {
-  const {notification_status, events_data} = result;
-  if (notification_status === "ON") {
-    toggleElement.checked = true;
-  }else{
-    toggleElement.checked = false;
-  }
-  displayData(events_data)
-})
-
-chrome.runtime.sendMessage({popupOpen: true});
-
 const toggleElement = document.getElementById("notificationId")
 toggleElement.addEventListener("click", () => {
   if(toggleElement.checked){
@@ -81,3 +69,15 @@ const addToCalendar = (event) => {
   event.preventDefault();
   window.open(event.target.getAttribute("value") + "/googlepublish", "_blank");
 }
+
+chrome.storage.local.get(["notification_status", "events_data"], (result) => {
+  const {notification_status, events_data} = result;
+  if (notification_status === "ON") {
+    toggleElement.checked = true;
+  }else{
+    toggleElement.checked = false;
+  }
+  displayData(events_data)
+})
+
+chrome.runtime.sendMessage({popupOpen: true});
