@@ -5,7 +5,6 @@ export default function fetchEvents() {
     .then((response) => response.json())
     .then((data) => {
       chrome.storage.local.set({ events_data: data });
-      console.log(data);
     })
     .catch((err) => {
       console.log(err);
