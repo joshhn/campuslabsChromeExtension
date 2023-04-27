@@ -111,7 +111,7 @@ class CampusLabsScraper:
             self.driver.get(specific_url)
             time.sleep(5)
 
-            soup = BeautifulSoup(self.driver.page_source, "lxml")
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
             event_name = soup.find_all("h1")[0].string
             event_time_from = soup.find_all("p")[0].contents[0]
