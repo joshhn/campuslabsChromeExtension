@@ -65,7 +65,9 @@ class CampusLabsScraper:
     def export_data(self):
         """Export data to json file."""
         with open(
-            "./data-scraper/campuslabs_events_data.json", "w+", encoding="utf-8"
+            "~/campuslabsChromeExtention/data-scraper/campuslabs_events_data.json",
+            "w+",
+            encoding="utf-8",
         ) as output_file:
             output_file.write(json.dumps(self.events_list, indent=4))
             print(f"{len(self.events_list)} events exported to file")
@@ -111,7 +113,7 @@ class CampusLabsScraper:
             self.driver.get(specific_url)
             time.sleep(5)
 
-            soup = BeautifulSoup(self.driver.page_source, "lxml")
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
             event_name = soup.find_all("h1")[0].string
             event_time_from = soup.find_all("p")[0].contents[0]
