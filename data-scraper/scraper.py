@@ -111,7 +111,7 @@ class CampusLabsScraper:
             self.driver.get(specific_url)
             time.sleep(5)
 
-            soup = BeautifulSoup(self.driver.page_source, "lxml")
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
             event_name = soup.find_all("h1")[0].string
             event_time_from = soup.find_all("p")[0].contents[0]
@@ -147,7 +147,7 @@ class CampusLabsScraper:
 
 URL = "https://depauw.campuslabs.com/engage/events"
 EVENT_URL = "https://depauw.campuslabs.com/engage/event/"
-service = Service(executable_path="./data-scraper/chromedriver_linux")
+service = Service(executable_path="./data-scraper/chromedriver")
 chrome_driver = webdriver.Chrome(service=service)
 
 scraper = CampusLabsScraper(URL, EVENT_URL, chrome_driver)
