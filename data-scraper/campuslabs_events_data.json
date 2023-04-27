@@ -1,13 +1,5 @@
 [
     {
-        "event_name": "Term Faculty Luncheon",
-        "event_time_from": "Thursday, April 27 2023 at 11:30 AM",
-        "event_time_to": "Thursday, April 27 2023 at 12:30 PM",
-        "event_location": "Hamilton Room (Hoover Hall)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8909744",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/19b3f076-d741-4583-9214-792c0ae5303c97e348d4-de09-47d9-a57d-6b9c7bc0f1d2.jpeg"
-    },
-    {
         "event_name": "SHARING CIRCLE WITH ALASDAIR FRASER & NATALIE HAAS",
         "event_time_from": "Thursday, April 27 2023 at 6:00 PM",
         "event_time_to": "Thursday, April 27 2023 at 7:00 PM",
@@ -366,53 +358,5 @@
         "event_location": "UB Ballroom",
         "event_url": "https://depauw.campuslabs.com/engage/event/9079738",
         "event_icon": "https://se-images.campuslabs.com/clink/images/7d6f4fb9-9b37-464a-84dc-be290199ffaa2ed020ab-220b-401f-b413-d8c37580757f.jpg"
-    },
-    {
-        "event_name": "S-Center Summer Workshop",
-        "event_time_from": "Wednesday, May 24 2023 at 10:00 AM",
-        "event_time_to": "Friday, May 26 2023 at 4:00 PM",
-        "event_location": "The Learning Commons (Roy O Library)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9032842",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/19b3f076-d741-4583-9214-792c0ae5303c97e348d4-de09-47d9-a57d-6b9c7bc0f1d2.jpeg"
-    },
-    {
-        "event_name": "Screening of How to Blow Up a Pipeline",
-        "event_time_from": "Wednesday, September 20 2023 at 7:30 PM",
-        "event_time_to": "Wednesday, September 20 2023 at 9:30 PM",
-        "event_location": "The Richard E. Peeler Art Center, Auditorium",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9063282",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/16915c95-a19f-44be-ac04-7ba3a81bf26c8563c2b2-3694-4609-b429-2076685567f5.jpg"
-    },
-    {
-        "event_name": "Faculty Panel:  How to Blow Up a Pipe Line",
-        "event_time_from": "Thursday, September 21 2023 at 11:30 AM",
-        "event_time_to": "Thursday, September 21 2023 at 12:30 PM",
-        "event_location": "The Roy O. West Library, Corrine and Paul Wood Study 128",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9064853",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/16915c95-a19f-44be-ac04-7ba3a81bf26c8563c2b2-3694-4609-b429-2076685567f5.jpg"
-    },
-    {
-        "event_name": "Friday Afternoon Seminar with CJ Gomolka: Naming Violence: The Collages F\u00e9minicides Paris Movement, Biotech Activism, and  the Creation of Queer Kin",
-        "event_time_from": "Friday, September 29 2023 at 4:00 PM",
-        "event_time_to": "Friday, September 29 2023 at 5:30 PM",
-        "event_location": "Wallace-Stewart (Hoover Hall)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9002296",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/19b3f076-d741-4583-9214-792c0ae5303c97e348d4-de09-47d9-a57d-6b9c7bc0f1d2.jpeg"
-    },
-    {
-        "event_name": "2024 Annual Student Juried Exhibition: Opening Reception and Awards Presentation",
-        "event_time_from": "Wednesday, February 7 2024 at 4:30 PM",
-        "event_time_to": "Wednesday, February 7 2024 at 5:30 PM",
-        "event_location": "The Richard E. Peeler Art Center, Visual Arts Gallery",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9071349",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
-    },
-    {
-        "event_name": "2024 Senior Student Art Exhibition, Opening Reception & Artist Talks",
-        "event_time_from": "Friday, April 19 2024 at 5:00 PM",
-        "event_time_to": "Friday, April 19 2024 at 6:00 PM",
-        "event_location": "The Richard E. Peeler Art Center",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9073706",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     }
 ]
