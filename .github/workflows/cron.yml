@@ -14,9 +14,17 @@ jobs:
         with:
           ref: daily-updates
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update && sudo apt-get install -y python3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 1.4.2
+
+      - name: Install dependencies with poetry
+        run: poetry install
 
       - name: Run script
         run: |
