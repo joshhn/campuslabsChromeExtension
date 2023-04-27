@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 
 
 class CampusLabsScraper:
@@ -148,10 +147,8 @@ class CampusLabsScraper:
 
 URL = "https://depauw.campuslabs.com/engage/events"
 EVENT_URL = "https://depauw.campuslabs.com/engage/event/"
-# service = Service(executable_path="./data-scraper/chromedriver_linux")
-# chrome_driver = webdriver.Chrome(service=service)
-service = ChromeService(executable_path=ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service)
+service = Service(executable_path="./data-scraper/chromedriver_linux")
+chrome_driver = webdriver.Chrome(service=service)
 
 scraper = CampusLabsScraper(URL, EVENT_URL, chrome_driver)
 scraper.export_data()
