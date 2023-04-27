@@ -2,7 +2,7 @@ name: Daily Cron Job
 
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   update:
