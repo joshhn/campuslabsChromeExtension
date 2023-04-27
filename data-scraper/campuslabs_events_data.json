@@ -1,77 +1,5 @@
 [
     {
-        "event_name": "Fall Musical Auditions",
-        "event_time_from": "Tuesday, April 25 2023 at 5:00 PM",
-        "event_time_to": "Tuesday, April 25 2023 at 8:30 PM",
-        "event_location": "The Green Center for Performing Arts",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9046907",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "4/26 SOM Convocation",
-        "event_time_from": "Wednesday, April 26 2023 at 10:20 AM",
-        "event_time_to": "Wednesday, April 26 2023 at 11:20 AM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8125755",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Women's Entrepreneurship Panel",
-        "event_time_from": "Wednesday, April 26 2023 at 11:25 AM",
-        "event_time_to": "Wednesday, April 26 2023 at 12:20 PM",
-        "event_location": "UB Ballroom",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9054477",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "Off-campus study with APA Paris, Morocco & Senegal",
-        "event_time_from": "Wednesday, April 26 2023 at 11:30 AM",
-        "event_time_to": "Wednesday, April 26 2023 at 12:30 PM",
-        "event_location": "Hubbard Center, Union Building 230 A/B",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9075367",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "Denim Day: Tabling",
-        "event_time_from": "Wednesday, April 26 2023 at 11:30 AM",
-        "event_time_to": "Wednesday, April 26 2023 at 1:30 PM",
-        "event_location": "Stewart Plaza",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9067562",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/1253006e-8b90-4c0a-b003-2514f7891e75d9560adf-fe83-4f35-b273-f8c04c56dd1b.png"
-    },
-    {
-        "event_name": "Off-campus study with APA Paris, Morocco & Senegal",
-        "event_time_from": "Wednesday, April 26 2023 at 4:00 PM",
-        "event_time_to": "Wednesday, April 26 2023 at 5:00 PM",
-        "event_location": "Hubbard Center, Union Building 230 A/B",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9077317",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "LeetCode Night with WiCS",
-        "event_time_from": "Wednesday, April 26 2023 at 4:00 PM",
-        "event_time_to": "Wednesday, April 26 2023 at 5:00 PM",
-        "event_location": "Julian Room 108",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8945628",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
-    },
-    {
-        "event_name": "DePauw Social Promise General Meeting",
-        "event_time_from": "Wednesday, April 26 2023 at 7:00 PM",
-        "event_time_to": "Wednesday, April 26 2023 at 8:00 PM",
-        "event_location": "Student Org Space (UB Basement)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8830155",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
-    },
-    {
-        "event_name": "ALASDAIR FRASER & NATALIE HAAS",
-        "event_time_from": "Wednesday, April 26 2023 at 7:30 PM",
-        "event_time_to": "Wednesday, April 26 2023 at 8:30 PM",
-        "event_location": "The Green Center for Performing Arts, Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9046518",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
         "event_name": "Term Faculty Luncheon",
         "event_time_from": "Thursday, April 27 2023 at 11:30 AM",
         "event_time_to": "Thursday, April 27 2023 at 12:30 PM",
@@ -104,11 +32,27 @@
         "event_icon": "None"
     },
     {
+        "event_name": "DACC Rock Painting",
+        "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
+        "event_time_to": "Thursday, April 27 2023 at 8:00 PM",
+        "event_location": "Stewart Plaza",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9079735",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/0e7ae1ab-5ee7-4cd1-8dc6-a870a5410ecedbdd1e7a-bae1-4458-924e-6dadae97c54b.jpeg"
+    },
+    {
         "event_name": "Lucy Pattie Fifa Tournament",
         "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
         "event_time_to": "Thursday, April 27 2023 at 9:00 PM",
         "event_location": "Sigma Alpha Epsilon",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078485",
+        "event_icon": "None"
+    },
+    {
+        "event_name": "DePauwCappella Dress Rehearsal",
+        "event_time_from": "Thursday, April 27 2023 at 9:00 PM",
+        "event_time_to": "Thursday, April 27 2023 at 10:00 PM",
+        "event_location": "MeHarry Hall",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9079748",
         "event_icon": "None"
     },
     {
@@ -144,6 +88,14 @@
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
+        "event_name": "Sigma Nu Cornhole Tournament",
+        "event_time_from": "Friday, April 28 2023 at 5:00 PM",
+        "event_time_to": "Friday, April 28 2023 at 8:00 PM",
+        "event_location": "Bowman Park",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9079716",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/5ab4dca2-9eb8-4c3a-b4b9-b1ab1ebe82fbd09f02aa-94a5-4f09-adb9-76bad47e6b51.jpg"
+    },
+    {
         "event_name": "Emily Scharf, soprano and Grant Jackson, baritone: Junior Degree Recitals",
         "event_time_from": "Friday, April 28 2023 at 7:30 PM",
         "event_time_to": "Friday, April 28 2023 at 8:30 PM",
@@ -166,6 +118,14 @@
         "event_location": "Claasics Lounge",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078440",
         "event_icon": "https://se-images.campuslabs.com/clink/images/1a4667de-77f3-4008-ba34-140549ab24ca3cfcb1ae-cdee-4a78-9617-cf8a401fd8e6.jpg"
+    },
+    {
+        "event_name": "*Clay Modeling Workshop",
+        "event_time_from": "Saturday, April 29 2023 at 1:00 PM",
+        "event_time_to": "Saturday, April 29 2023 at 3:00 PM",
+        "event_location": "The Richard E. Peeler Art Center, Lobby",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9079505",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
         "event_name": "Lily Rutledge, viola: Senior Degree Recital",
@@ -193,7 +153,7 @@
     },
     {
         "event_name": "DISA International Formal 2023",
-        "event_time_from": "Saturday, April 29 2023 at 5:00 AM",
+        "event_time_from": "Saturday, April 29 2023 at 5:00 PM",
         "event_time_to": "Saturday, April 29 2023 at 9:00 PM",
         "event_location": "Prindle Institute (gather outside UB facing Mason and Lucy)",
         "event_url": "https://depauw.campuslabs.com/engage/event/9058496",
@@ -206,14 +166,6 @@
         "event_location": "Prindle Institute, DePauw Nature Park",
         "event_url": "https://depauw.campuslabs.com/engage/event/9061440",
         "event_icon": "https://se-images.campuslabs.com/clink/images/d5b27472-5fd8-43f9-bf80-a3cf8cd8789287e90b60-fbe5-45e8-9615-38361ffd8299.jpg"
-    },
-    {
-        "event_name": "Holi",
-        "event_time_from": "Sunday, April 30 2023 at 12:00 PM",
-        "event_time_to": "Sunday, April 30 2023 at 4:00 PM",
-        "event_location": "Bowman park",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9078438",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/c82f3a47-7cea-45f0-b320-752e60c408cf55495396-0eee-401b-b3d4-446d9ac62966.jpg"
     },
     {
         "event_name": "4/30 Symphonic Band Concert",
@@ -406,6 +358,14 @@
         "event_location": "Student Org Space (UB Basement)",
         "event_url": "https://depauw.campuslabs.com/engage/event/8830162",
         "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
+    },
+    {
+        "event_name": "Black Men's Retreat",
+        "event_time_from": "Friday, May 12 2023 at 12:00 PM",
+        "event_time_to": "Friday, May 12 2023 at 6:00 PM",
+        "event_location": "UB Ballroom",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9079738",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/7d6f4fb9-9b37-464a-84dc-be290199ffaa2ed020ab-220b-401f-b413-d8c37580757f.jpg"
     },
     {
         "event_name": "S-Center Summer Workshop",

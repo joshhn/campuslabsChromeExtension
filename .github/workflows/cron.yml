@@ -1,0 +1,30 @@
+name: Daily Cron Job
+
+on:
+  schedule:
+    - cron: '30 16 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: daily-updates
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y python3
+
+      - name: Run script
+        run: |
+          python3 data-scraper/scraper.py
+
+      - name: push
+        uses: actions-x/commit@v6
+        with:
+          name: GitHub Actions Autocommitter
+          branch: daily-updates
+          files: data-scraper/campuslabs_events_data.json
+          force: true
