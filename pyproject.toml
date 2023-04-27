@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "depauw_university_campuslabs_extension"
+name = "depauw_campuslabs_chrome_extension"
 version = "0.1.0"
 description = "Quick Search Upcoming Events on DePauw CampusLabs"
 authors = ["joshhn <duy.huynhngoc.05@gmail.com>"]
