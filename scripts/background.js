@@ -42,6 +42,7 @@ const stopNotification = (notificationName) => {
 
 const turnNotificationOn = () => {
   console.log("Received on");
+  // Keep for future use
 }
 
 const turnNotificationOff = () => {

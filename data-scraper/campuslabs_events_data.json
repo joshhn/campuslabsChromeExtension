@@ -1,42 +1,11 @@
 [
     {
-        "event_name": "SHARING CIRCLE WITH ALASDAIR FRASER & NATALIE HAAS",
-        "event_time_from": "Thursday, April 27 2023 at 6:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 7:00 PM",
-        "event_location": "Music on the Square",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9046571",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Empty Bowls Community Meal*",
-        "event_time_from": "Thursday, April 27 2023 at 6:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 8:00 PM",
-        "event_location": "Memorial Student Union Building, Ballroom",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8959315",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/2a1670c2-5319-4260-a04c-1bc0ef90a529cd56fe9e-f518-4963-bfe2-f02a1df5ec5f.jpg"
-    },
-    {
-        "event_name": "Psi Chi Initiation",
-        "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 8:00 PM",
-        "event_location": "The room on the first floor of the library to the left immediately when you walk in.",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9061498",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "DACC Rock Painting",
-        "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 8:00 PM",
-        "event_location": "Stewart Plaza",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9079735",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/0e7ae1ab-5ee7-4cd1-8dc6-a870a5410ecedbdd1e7a-bae1-4458-924e-6dadae97c54b.jpeg"
-    },
-    {
         "event_name": "Lucy Pattie Fifa Tournament",
         "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
         "event_time_to": "Thursday, April 27 2023 at 9:00 PM",
         "event_location": "Sigma Alpha Epsilon",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078485",
+        "event_organizer": "Sigma Alpha Epsilon",
         "event_icon": "None"
     },
     {
@@ -45,6 +14,7 @@
         "event_time_to": "Thursday, April 27 2023 at 10:00 PM",
         "event_location": "MeHarry Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9079748",
+        "event_organizer": "DePauwCappella",
         "event_icon": "None"
     },
     {
@@ -53,6 +23,7 @@
         "event_time_to": "Friday, April 28 2023 at 12:00 PM",
         "event_location": "Table In Front of Julian",
         "event_url": "https://depauw.campuslabs.com/engage/event/8905561",
+        "event_organizer": "Social Promise",
         "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
     },
     {
@@ -61,6 +32,7 @@
         "event_time_to": "Friday, April 28 2023 at 12:30 PM",
         "event_location": "Union Building 230",
         "event_url": "https://depauw.campuslabs.com/engage/event/9046297",
+        "event_organizer": "Hubbard Center for Student Engagement",
         "event_icon": "https://se-images.campuslabs.com/clink/images/a05b14dd-6f6b-47e0-b022-2c61cc77a6077dd1295d-eb8d-466c-8494-b2a90d8cb554.png"
     },
     {
@@ -69,6 +41,7 @@
         "event_time_to": "Friday, April 28 2023 at 6:00 PM",
         "event_location": "Roy 119",
         "event_url": "https://depauw.campuslabs.com/engage/event/9058492",
+        "event_organizer": "Association for Computing Machinery - Women",
         "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
     },
     {
@@ -77,6 +50,7 @@
         "event_time_to": "Friday, April 28 2023 at 6:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9050756",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -85,6 +59,7 @@
         "event_time_to": "Friday, April 28 2023 at 8:00 PM",
         "event_location": "Bowman Park",
         "event_url": "https://depauw.campuslabs.com/engage/event/9079716",
+        "event_organizer": "Sigma Nu",
         "event_icon": "https://se-images.campuslabs.com/clink/images/5ab4dca2-9eb8-4c3a-b4b9-b1ab1ebe82fbd09f02aa-94a5-4f09-adb9-76bad47e6b51.jpg"
     },
     {
@@ -93,6 +68,7 @@
         "event_time_to": "Friday, April 28 2023 at 8:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9050768",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -101,6 +77,7 @@
         "event_time_to": "Friday, April 28 2023 at 10:30 PM",
         "event_location": "McKim Obsevatory",
         "event_url": "https://depauw.campuslabs.com/engage/event/8715617",
+        "event_organizer": "McKim Observatory",
         "event_icon": "None"
     },
     {
@@ -109,6 +86,7 @@
         "event_time_to": "Saturday, April 29 2023 at 2:00 PM",
         "event_location": "Claasics Lounge",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078440",
+        "event_organizer": "Classics Club",
         "event_icon": "https://se-images.campuslabs.com/clink/images/1a4667de-77f3-4008-ba34-140549ab24ca3cfcb1ae-cdee-4a78-9617-cf8a401fd8e6.jpg"
     },
     {
@@ -117,6 +95,7 @@
         "event_time_to": "Saturday, April 29 2023 at 3:00 PM",
         "event_location": "The Richard E. Peeler Art Center, Lobby",
         "event_url": "https://depauw.campuslabs.com/engage/event/9079505",
+        "event_organizer": "Art Galleries & University Collections",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
@@ -125,6 +104,7 @@
         "event_time_to": "Saturday, April 29 2023 at 3:00 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9050776",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -133,6 +113,7 @@
         "event_time_to": "Saturday, April 29 2023 at 6:00 PM",
         "event_location": "Kerr Theatre (GCPA)",
         "event_url": "https://depauw.campuslabs.com/engage/event/9061476",
+        "event_organizer": "Alpha Psi Omega (Duzer Du)",
         "event_icon": "https://se-images.campuslabs.com/clink/images/0ab592c9-7bc0-4344-b3dc-d524ec27d7bece36de88-6d4b-4704-bdef-077c89678962.png"
     },
     {
@@ -141,6 +122,7 @@
         "event_time_to": "Saturday, April 29 2023 at 8:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9050817",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -149,6 +131,7 @@
         "event_time_to": "Saturday, April 29 2023 at 9:00 PM",
         "event_location": "Prindle Institute (gather outside UB facing Mason and Lucy)",
         "event_url": "https://depauw.campuslabs.com/engage/event/9058496",
+        "event_organizer": "DePauw International Student Association",
         "event_icon": "https://se-images.campuslabs.com/clink/images/d5b27472-5fd8-43f9-bf80-a3cf8cd8789287e90b60-fbe5-45e8-9615-38361ffd8299.jpg"
     },
     {
@@ -157,6 +140,7 @@
         "event_time_to": "Saturday, April 29 2023 at 9:00 PM",
         "event_location": "Prindle Institute, DePauw Nature Park",
         "event_url": "https://depauw.campuslabs.com/engage/event/9061440",
+        "event_organizer": "DePauw International Student Association",
         "event_icon": "https://se-images.campuslabs.com/clink/images/d5b27472-5fd8-43f9-bf80-a3cf8cd8789287e90b60-fbe5-45e8-9615-38361ffd8299.jpg"
     },
     {
@@ -165,6 +149,7 @@
         "event_time_to": "Sunday, April 30 2023 at 4:30 PM",
         "event_location": "Kresge Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/8140572",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -173,6 +158,7 @@
         "event_time_to": "Sunday, April 30 2023 at 5:00 PM",
         "event_location": "Stewart Plaza",
         "event_url": "https://depauw.campuslabs.com/engage/event/9052422",
+        "event_organizer": "J-Club",
         "event_icon": "https://se-images.campuslabs.com/clink/images/2e0545de-8764-4885-b348-733a6722a472697e955c-2813-48e9-a078-73ec5711826a.png"
     },
     {
@@ -181,6 +167,7 @@
         "event_time_to": "Sunday, April 30 2023 at 8:30 PM",
         "event_location": "Thompson Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/8918868",
+        "event_organizer": "Contemporary Ensemble Club",
         "event_icon": "https://se-images.campuslabs.com/clink/images/e75a1d16-4bc1-4df3-b3f4-d8e5369206c2c254ca0f-fc0b-4277-97f3-f0c158241345.png"
     },
     {
@@ -189,6 +176,7 @@
         "event_time_to": "Sunday, April 30 2023 at 9:00 PM",
         "event_location": "DePauw University",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078449",
+        "event_organizer": "DePauw Art Walk",
         "event_icon": "https://se-images.campuslabs.com/clink/images/e75a1d16-4bc1-4df3-b3f4-d8e5369206c2c254ca0f-fc0b-4277-97f3-f0c158241345.png"
     },
     {
@@ -197,6 +185,7 @@
         "event_time_to": "Monday, May 1 2023 at 12:30 PM",
         "event_location": "Julian 147",
         "event_url": "https://depauw.campuslabs.com/engage/event/9074322",
+        "event_organizer": "McDermond Center Investment Group",
         "event_icon": "None"
     },
     {
@@ -205,6 +194,7 @@
         "event_time_to": "Monday, May 1 2023 at 9:30 PM",
         "event_location": "Center for Spiritual Life",
         "event_url": "https://depauw.campuslabs.com/engage/event/8889416",
+        "event_organizer": "Young Life",
         "event_icon": "https://se-images.campuslabs.com/clink/images/95ce0d54-ad28-488b-8063-2c20bdd440a6d40ac898-33a0-4387-b0cd-8ccff3dbac99.jpeg"
     },
     {
@@ -213,6 +203,7 @@
         "event_time_to": "Monday, May 1 2023 at 10:00 PM",
         "event_location": "MeHarry Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078435",
+        "event_organizer": "DePauwCappella",
         "event_icon": "None"
     },
     {
@@ -221,6 +212,7 @@
         "event_time_to": "Tuesday, May 2 2023 at 8:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/8140666",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -229,6 +221,7 @@
         "event_time_to": "Wednesday, May 3 2023 at 11:20 AM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/8125786",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -237,6 +230,7 @@
         "event_time_to": "Wednesday, May 3 2023 at 5:00 PM",
         "event_location": "Julian Room 108",
         "event_url": "https://depauw.campuslabs.com/engage/event/8945629",
+        "event_organizer": "Association for Computing Machinery - Women",
         "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
     },
     {
@@ -245,6 +239,7 @@
         "event_time_to": "Wednesday, May 3 2023 at 8:00 PM",
         "event_location": "CDI",
         "event_url": "https://depauw.campuslabs.com/engage/event/8945531",
+        "event_organizer": "The Brotherhood",
         "event_icon": "https://se-images.campuslabs.com/clink/images/20d9bc58-153d-4717-ab8a-982554a8f042f6e2625e-0404-4927-931a-4aa721e31960.jpg"
     },
     {
@@ -253,6 +248,7 @@
         "event_time_to": "Wednesday, May 3 2023 at 8:30 PM",
         "event_location": "Peeler Auditorium, Peeler Art Center",
         "event_url": "https://depauw.campuslabs.com/engage/event/9057032",
+        "event_organizer": "Environmental Fellows Program",
         "event_icon": "https://se-images.campuslabs.com/clink/images/6a228b4a-7337-49e1-9506-47440523516abe2c20ac-b34a-4ac2-8547-3b73cb47a4ee.jpg"
     },
     {
@@ -261,6 +257,7 @@
         "event_time_to": "Thursday, May 4 2023 at 8:00 PM",
         "event_location": "Tenzer Tech Lab (ROW 203)",
         "event_url": "https://depauw.campuslabs.com/engage/event/9077589",
+        "event_organizer": "Tenzer Technology Center",
         "event_icon": "https://se-images.campuslabs.com/clink/images/07ba124c-c760-4f9a-ae7c-b5dd8690db0a72e2042a-e664-4c92-8a03-91a7df76ff57.jpg"
     },
     {
@@ -269,6 +266,7 @@
         "event_time_to": "Thursday, May 4 2023 at 8:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/8140705",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -277,6 +275,7 @@
         "event_time_to": "Friday, May 5 2023 at 5:30 PM",
         "event_location": "The Richard E. Peeler Art Center, Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/9054451",
+        "event_organizer": "Art Galleries & University Collections",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
@@ -285,6 +284,7 @@
         "event_time_to": "Friday, May 5 2023 at 6:30 PM",
         "event_location": "Bowman Park",
         "event_url": "https://depauw.campuslabs.com/engage/event/9078444",
+        "event_organizer": "The HEAT",
         "event_icon": "https://se-images.campuslabs.com/clink/images/90c7c940-093d-4b89-b976-4c0e037d42f9d075aea7-6ed9-4a1f-b0bf-9587798cfdc6.jpeg"
     },
     {
@@ -293,6 +293,7 @@
         "event_time_to": "Friday, May 5 2023 at 8:30 PM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/9050836",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -301,6 +302,7 @@
         "event_time_to": "Saturday, May 6 2023 at 2:00 PM",
         "event_location": "The Richard E. Peeler Art Center, Basement Computer Lab, 007",
         "event_url": "https://depauw.campuslabs.com/engage/event/9054425",
+        "event_organizer": "Art Galleries & University Collections",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
@@ -309,6 +311,7 @@
         "event_time_to": "Saturday, May 6 2023 at 3:00 PM",
         "event_location": "IU Health (West or North)",
         "event_url": "https://depauw.campuslabs.com/engage/event/8979999",
+        "event_organizer": "DePauw MAPS",
         "event_icon": "https://se-images.campuslabs.com/clink/images/a05b14dd-6f6b-47e0-b022-2c61cc77a6077dd1295d-eb8d-466c-8494-b2a90d8cb554.png"
     },
     {
@@ -317,6 +320,7 @@
         "event_time_to": "Sunday, May 7 2023 at 4:30 PM",
         "event_location": "Kresge Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/8140706",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -325,6 +329,7 @@
         "event_time_to": "Tuesday, May 9 2023 at 5:30 PM",
         "event_location": "The Richard E. Peeler Art Center, Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/9048574",
+        "event_organizer": "None",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
@@ -333,6 +338,7 @@
         "event_time_to": "Wednesday, May 10 2023 at 11:20 AM",
         "event_location": "Thompson Recital Hall",
         "event_url": "https://depauw.campuslabs.com/engage/event/8125790",
+        "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
@@ -341,6 +347,7 @@
         "event_time_to": "Wednesday, May 10 2023 at 5:00 PM",
         "event_location": "Julian Room 108",
         "event_url": "https://depauw.campuslabs.com/engage/event/8945630",
+        "event_organizer": "Association for Computing Machinery - Women",
         "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
     },
     {
@@ -349,6 +356,7 @@
         "event_time_to": "Wednesday, May 10 2023 at 8:00 PM",
         "event_location": "Student Org Space (UB Basement)",
         "event_url": "https://depauw.campuslabs.com/engage/event/8830162",
+        "event_organizer": "Social Promise",
         "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
     },
     {
@@ -357,6 +365,61 @@
         "event_time_to": "Friday, May 12 2023 at 6:00 PM",
         "event_location": "UB Ballroom",
         "event_url": "https://depauw.campuslabs.com/engage/event/9079738",
+        "event_organizer": "Alpha Phi Alpha",
         "event_icon": "https://se-images.campuslabs.com/clink/images/7d6f4fb9-9b37-464a-84dc-be290199ffaa2ed020ab-220b-401f-b413-d8c37580757f.jpg"
+    },
+    {
+        "event_name": "S-Center Summer Workshop",
+        "event_time_from": "Wednesday, May 24 2023 at 10:00 AM",
+        "event_time_to": "Friday, May 26 2023 at 4:00 PM",
+        "event_location": "The Learning Commons (Roy O Library)",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9032842",
+        "event_organizer": "Faculty Development",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/19b3f076-d741-4583-9214-792c0ae5303c97e348d4-de09-47d9-a57d-6b9c7bc0f1d2.jpeg"
+    },
+    {
+        "event_name": "Screening of How to Blow Up a Pipeline",
+        "event_time_from": "Wednesday, September 20 2023 at 7:30 PM",
+        "event_time_to": "Wednesday, September 20 2023 at 9:30 PM",
+        "event_location": "The Richard E. Peeler Art Center, Auditorium",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9063282",
+        "event_organizer": "Film Studies",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/16915c95-a19f-44be-ac04-7ba3a81bf26c8563c2b2-3694-4609-b429-2076685567f5.jpg"
+    },
+    {
+        "event_name": "Faculty Panel:  How to Blow Up a Pipe Line",
+        "event_time_from": "Thursday, September 21 2023 at 11:30 AM",
+        "event_time_to": "Thursday, September 21 2023 at 12:30 PM",
+        "event_location": "The Roy O. West Library, Corrine and Paul Wood Study 128",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9064853",
+        "event_organizer": "Film Studies",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/16915c95-a19f-44be-ac04-7ba3a81bf26c8563c2b2-3694-4609-b429-2076685567f5.jpg"
+    },
+    {
+        "event_name": "Friday Afternoon Seminar with CJ Gomolka: Naming Violence: The Collages F\u00e9minicides Paris Movement, Biotech Activism, and  the Creation of Queer Kin",
+        "event_time_from": "Friday, September 29 2023 at 4:00 PM",
+        "event_time_to": "Friday, September 29 2023 at 5:30 PM",
+        "event_location": "Wallace-Stewart (Hoover Hall)",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9002296",
+        "event_organizer": "Faculty Development",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/19b3f076-d741-4583-9214-792c0ae5303c97e348d4-de09-47d9-a57d-6b9c7bc0f1d2.jpeg"
+    },
+    {
+        "event_name": "2024 Annual Student Juried Exhibition: Opening Reception and Awards Presentation",
+        "event_time_from": "Wednesday, February 7 2024 at 4:30 PM",
+        "event_time_to": "Wednesday, February 7 2024 at 5:30 PM",
+        "event_location": "The Richard E. Peeler Art Center, Visual Arts Gallery",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9071349",
+        "event_organizer": "Art Galleries & University Collections",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
+        "event_name": "2024 Senior Student Art Exhibition, Opening Reception & Artist Talks",
+        "event_time_from": "Friday, April 19 2024 at 5:00 PM",
+        "event_time_to": "Friday, April 19 2024 at 6:00 PM",
+        "event_location": "The Richard E. Peeler Art Center",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9073706",
+        "event_organizer": "Art Galleries & University Collections",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     }
 ]

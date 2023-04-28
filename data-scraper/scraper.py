@@ -65,7 +65,7 @@ class CampusLabsScraper:
     def export_data(self):
         """Export data to json file."""
         with open(
-            "~/campuslabsChromeExtention/data-scraper/campuslabs_events_data.json",
+            "./data-scraper/campuslabs_events_data.json",
             "w+",
             encoding="utf-8",
         ) as output_file:
@@ -119,6 +119,7 @@ class CampusLabsScraper:
             event_time_from = soup.find_all("p")[0].contents[0]
             event_time_to = soup.find_all("p")[1].contents[0]
             event_location = soup.find_all("p")[2].string
+            event_organizer = soup.find_all("h3")[0].string
             icon_img = soup.find_all("img")
             event_icon = "None"
             if icon_img:
@@ -131,6 +132,7 @@ class CampusLabsScraper:
             temp["event_time_to"] = str(event_time_to).strip()
             temp["event_location"] = str(event_location).strip()
             temp["event_url"] = str(specific_url).strip()
+            temp["event_organizer"] = str(event_organizer).strip()
             if re.search(
                 "^https://se-images.campuslabs.com/clink/images/.*?preset=small-sq$",
                 event_icon,
