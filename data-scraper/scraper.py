@@ -24,8 +24,6 @@ class CampusLabsScraper:
         the base url to a specific event
     driver : Any
         the webdriver used to access webpage
-    events_list : list
-        the events list output
 
     Methods
     -------
@@ -33,13 +31,15 @@ class CampusLabsScraper:
         Click the load more button to load more entries.
     scroll_down():
         Scroll the page down so most recent entries can be viewed.
-    export_data():
+    export_data(events_list):
         Export data to json file.
     get_reload_times() -> int:
         Get number of times to reload the page.
     get_reload_times() -> int:
         Get number of times to reload the page.
-    create_events_list() -> list:
+    create_url_list() -> list:
+        Return the event url list.
+    create_events_list(url_list) -> list:
         Return the events list.
 
     """
@@ -49,7 +49,6 @@ class CampusLabsScraper:
         self.url = base_url
         self.event_url = base_event_url
         self.driver = used_driver
-        self.events_list = self.create_events_list()
 
     def get_button(self):
         """Click the load more button to load more entries."""
@@ -62,15 +61,15 @@ class CampusLabsScraper:
         """Scroll the page down so most recent entries can be viewed."""
         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
-    def export_data(self):
+    def export_data(self, events_list: list):
         """Export data to json file."""
         with open(
-            "~/campuslabsChromeExtention/data-scraper/campuslabs_events_data.json",
+            "./data-scraper/campuslabs_events_data.json",
             "w+",
             encoding="utf-8",
         ) as output_file:
-            output_file.write(json.dumps(self.events_list, indent=4))
-            print(f"{len(self.events_list)} events exported to file")
+            output_file.write(json.dumps(events_list, indent=4))
+            print(f"{len(events_list)} events exported to file")
 
     def get_reload_times(self) -> int:
         """Get number of times to reload the page."""
@@ -84,13 +83,13 @@ class CampusLabsScraper:
         print(f"There are {num_of_events} upcoming events.")
         return math.ceil(int(num_of_events) / 15) - 1
 
-    def create_events_list(self) -> list:
-        """Return the events list."""
-        print("Running...")
+    def create_url_list(self) -> list:
+        """Return the url list."""
+        print("Creating URL list...")
         self.driver.get(self.url)
         time.sleep(2)
 
-        event_url_list = []
+        url_list = []
         reload_times = self.get_reload_times()
         while reload_times:
             self.scroll_down()
@@ -104,11 +103,17 @@ class CampusLabsScraper:
             .find_all("a")
         )
         for child in soup:
-            event_url_list.append(child["href"])
+            url_list.append(child["href"])
+
+        return url_list
+
+    def create_events_list(self, url_list: list) -> list:
+        """Return the events list."""
+        print("Creating events list...")
 
         events_list = []
 
-        for url in event_url_list:
+        for url in url_list:
             specific_url = self.event_url + url.rsplit("/", 1)[1]
             self.driver.get(specific_url)
             time.sleep(5)
@@ -119,6 +124,7 @@ class CampusLabsScraper:
             event_time_from = soup.find_all("p")[0].contents[0]
             event_time_to = soup.find_all("p")[1].contents[0]
             event_location = soup.find_all("p")[2].string
+            event_organizer = soup.find_all("h3")[0].string
             icon_img = soup.find_all("img")
             event_icon = "None"
             if icon_img:
@@ -131,6 +137,7 @@ class CampusLabsScraper:
             temp["event_time_to"] = str(event_time_to).strip()
             temp["event_location"] = str(event_location).strip()
             temp["event_url"] = str(specific_url).strip()
+            temp["event_organizer"] = str(event_organizer).strip()
             if re.search(
                 "^https://se-images.campuslabs.com/clink/images/.*?preset=small-sq$",
                 event_icon,
@@ -153,5 +160,7 @@ service = Service(executable_path="./data-scraper/chromedriver")
 chrome_driver = webdriver.Chrome(service=service)
 
 scraper = CampusLabsScraper(URL, EVENT_URL, chrome_driver)
-scraper.export_data()
+events_url_list = scraper.create_url_list()
+events_data_list = scraper.create_events_list(events_url_list)
+scraper.export_data(events_data_list)
 chrome_driver.quit()
