@@ -74,6 +74,8 @@ chrome.runtime.onMessage.addListener(data => {
   chrome.storage.local.set(data)
   if(data.popupOpen) {
     changeBadge('', '#F55050');
+  } else if(data.theme_status){
+    chrome.storage.local.set({theme_status: data.theme_status});
   } else if(data.notification_status === "ON"){
     turnNotificationOn();
   } else {

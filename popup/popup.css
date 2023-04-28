@@ -1,5 +1,15 @@
 html {
   min-width: 450px;
+  min-height: 436px;
+
+  background-color: #FFF;
+  --first-color: #f9fafb;
+  --first-color-second: #ededed;
+  --text-color: #302c2c;
+  --gold: #ffcf01;
+  --main-bg: #FFF;
+  --toggle-first: #000;
+  --toggle-second: #FFF;
 }
 
 body {
@@ -44,7 +54,7 @@ header {
 }
 
 .event__info {
-  max-height: 318px;
+  height: 318px;
   overflow-y: auto;
 }
 
@@ -186,32 +196,28 @@ header {
   margin-right: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #302c2c;
-    --first-color: #282828;
-    --first-color-second: #424242;
-    --text-color: #f9fafb;
-    --gold: #ffcf01;
-    --main-bg: #212121;
-    --toggle-first: #606060;
-    --toggle-second: #f9fafb;
-  }
-
-  .event__tag {
-    color: var(--first-color-second);
-  }
+#theme__toggle {
+  margin-right: 0px;
+  margin-left: auto;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: light) {
-  html {
-    background-color: #FFF;
-    --first-color: #f9fafb;
-    --first-color-second: #ededed;
-    --text-color: #302c2c;
-    --gold: #ffcf01;
-    --main-bg: #FFF;
-    --toggle-first: #000;
-    --toggle-second: #FFF;
-  }
+.fa-moon, .fa-sun
+{
+  color: var(--gold);
+}
+
+html.dark-mode {
+  background-color: #302c2c;
+  --first-color: #282828;
+  --first-color-second: #424242;
+  --text-color: #f9fafb;
+  --gold: #ffcf01;
+  --main-bg: #212121;
+  --toggle-first: #606060;
+  --toggle-second: #f9fafb;
+}
+
+html.dark-mode .event__tag {
+  color: var(--first-color-second);
 }
