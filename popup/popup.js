@@ -88,8 +88,53 @@ const addNotificationToggle = (notification_status) => {
   event__toggle.appendChild(label);
 }
 
-chrome.storage.local.get(["notification_status", "events_data"], (result) => {
-  const {notification_status, events_data} = result;
+const addThemeToggle = (theme_status) => {
+  const theme__button = document.getElementById("theme__button");
+
+  const darkModeOn = () => {
+    theme__button.classList["remove"]("fa-moon");
+    theme__button.classList["add"]("fa-sun");
+    document.documentElement.classList["add"]("dark-mode");
+  }
+
+  const darkModeOff = () => {
+    theme__button.classList["remove"]("fa-sun");
+    theme__button.classList["add"]("fa-moon");
+    document.documentElement.classList["remove"]("dark-mode");
+  }
+
+  if (theme_status == "light-mode") {
+    darkModeOff();
+  }
+  else if (theme_status == "dark-mode"){
+    darkModeOn();
+  }
+
+  const theme__toggle = document.getElementById("theme__toggle");
+
+  theme__toggle.addEventListener("click", () => {
+    if (theme__button.classList.contains("fa-moon")) {
+      chrome.runtime.sendMessage({theme_status: "dark-mode"});
+      darkModeOn();
+    }
+    else if (theme__button.classList.contains("fa-sun")){
+      chrome.runtime.sendMessage({theme_status: "light-mode"});
+      darkModeOff();
+    }
+  });
+}
+
+chrome.storage.local.get(["theme_status", "notification_status", "events_data"], (result) => {
+  const {theme_status, notification_status, events_data} = result;
+
+  if (theme_status == null) {
+    theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark-mode" : "light-mode";
+    chrome.runtime.sendMessage({theme_status: theme});
+    addThemeToggle(theme);
+  }
+  else {
+    addThemeToggle(theme_status);
+  }
 
   addNotificationToggle(notification_status);
   displayData(events_data);
