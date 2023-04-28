@@ -3,17 +3,12 @@ html {
 }
 
 body {
-  --light-gray: #f9fafb;
-  --mid-gray: #ededed;
-  --dark-gray: #302c2c;
-  --gold: #ffcf01;
-
   margin: 0;
   display: grid;
   height: 100vh;
   place-items: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: var(--dark-gray);
+  color: var(--text-color);
 }
 
 a {
@@ -32,6 +27,7 @@ p {
   max-width: 440px;
   width: 100%;
   border-radius: 10px;
+  background-color: var(--main-bg);
 }
 
 header {
@@ -56,18 +52,18 @@ header {
   display: flex;
   align-items: center;
   padding: 15px;
-  background-color: var(--light-gray);
-  border-top: 1px solid var(--mid-gray);
+  background-color: var(--first-color);
+  border-top: 1px solid var(--first-color-second);
 }
 
 .event__item:hover {
   cursor: pointer;
-  background-color: var(--mid-gray);
+  background-color: var(--first-color-second);
   transition: all 0.25s ease;
 }
 
 .event__icon {
-  background-color: var(--light-gray);
+  background-color: var(--first-color);
   display: inline-flex;
   user-select: none;
   align-items: center;
@@ -145,9 +141,9 @@ header {
   height: 21px;
   position: relative;
   display: inline-block;
-  background: #FFF;
+  background: var(--toggle-second);
   border-radius: 23px;
-  border: 2px solid #000;
+  border: 2px solid var(--toggle-first);
   box-sizing: border-box;
   transition: 0.2s ease-in;
 }
@@ -161,22 +157,22 @@ header {
   left: 5px;
   top: 6px;
   z-index: 2;
-  background: #000;
+  background: var(--toggle-first);
   box-sizing: border-box;
   transition: 0.2s ease-in;
 }
 
 .event__toggle input[type="checkbox"]:checked + label:before {
-  background: #000;
+  background: var(--toggle-first);
 }
 
 .event__toggle input[type="checkbox"]:checked + label:after {
   left: 29px;
-  background: #FFF;
+  background: var(--toggle-second);
 }
 
 .event__tag {
-  color: var(--dark-gray);
+  color: var(--text-color);
   font-size: 0.8rem;
   background-color: var(--gold);
   border-radius: 18px;
@@ -188,4 +184,34 @@ header {
 
 .event__tag i {
   margin-right: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #302c2c;
+    --first-color: #282828;
+    --first-color-second: #424242;
+    --text-color: #f9fafb;
+    --gold: #ffcf01;
+    --main-bg: #212121;
+    --toggle-first: #606060;
+    --toggle-second: #f9fafb;
+  }
+
+  .event__tag {
+    color: var(--first-color-second);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #FFF;
+    --first-color: #f9fafb;
+    --first-color-second: #ededed;
+    --text-color: #302c2c;
+    --gold: #ffcf01;
+    --main-bg: #FFF;
+    --toggle-first: #000;
+    --toggle-second: #FFF;
+  }
 }
