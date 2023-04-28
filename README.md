@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://standardjs.com"><img src="images/octotiger.png" alt="CampusLabs Chrome Extension - Quick Search Upcoming Events at DePauw." width="400"></a>
+  <a href="https://standardjs.com"><img src="images/octotiger.png" alt="CampusLabs Chrome Extension - Quick Search Upcoming Events at DePauw." width="300"></a>
   <br>
   <a href="<INSERT>">CampusLabs Chrome Extension</a> - Quick Search Upcoming Events at DePauw.
   <br>
@@ -33,16 +33,16 @@ retention, and success. This project is for TigerHacks Hackathon hosted by WiCS 
 
 ## Why CampusLabs Chrome Extension?
 
-The CampusLabs Chrome Extension project displays DePauw campus events in an easy and accessible way and notify users daily. DePauw students won't worry to miss out interesting events and important opportunities. 
+The CampusLabs Chrome Extension project displays DePauw campus events in an easy and accessible way and notify users daily. DePauw students won't worry to miss out interesting events and important opportunities.
 
-## How does CampusLabs Chrome Extension work? 
+## How does CampusLabs Chrome Extension work?
 
 The CampusLabs Chrome Extension project takes data from the DePauw CampusLabs website and displays upcoming events in a centralized platform. Here are current supportive features:
 
 - Discover new opportunities and engage with different student groups and organizations by scrolling through the list of displayed events.
-- Events that celebrate diversity and inclusion are highlighted. 
+- Events that celebrate diversity and inclusion are highlighted.
 - Users can enable daily notifications for the extension.
-- Users can add events to Google Calendars. 
+- Users can add events to Google Calendars.
 - Each time a new event is updated, a small red icon next to the extension will appear.
 
 ## Architecture
@@ -162,5 +162,3 @@ to discuss what you would like to change.
 
 ## License
 [MIT](https://github.com/joshhn/campuslabsChromeExtention/blob/main/LICENSE)
-
-
