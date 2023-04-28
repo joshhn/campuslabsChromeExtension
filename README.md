@@ -37,7 +37,7 @@ The CampusLabs Chrome Extension project displays DePauw campus events in an easy
 
 ## How does CampusLabs Chrome Extension work?
 
-The CampusLabs Chrome Extension project takes data from the DePauw CampusLabs website and displays upcoming events in a centralized platform. Here are current supportive features:
+The CampusLabs Chrome Extension project takes data from the DePauw CampusLabs website and displays upcoming events in a centralized platform. Here are current supported features:
 
 - Discover new opportunities and engage with different student groups and organizations by scrolling through the list of displayed events.
 - Events that celebrate diversity and inclusion are highlighted.
