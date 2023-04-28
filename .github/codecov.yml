@@ -1,0 +1,16 @@
+codecov:
+  notify:
+    require_ci_to_pass: yes
+coverage:
+  precision: 2
+  round: down
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1.0%
+    patch:
+      default:
+        enabled: no 
+        if_not_found: success
+comment: false # Can be enabled if repo authors become activated users. Otherwise it is distracting
