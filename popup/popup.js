@@ -1,3 +1,5 @@
+import { ORGANIZATIONS } from "./organizations.js";
+
 const displayData = (data) => {
   var mainContainer = document.getElementById("event__info");
 
@@ -44,6 +46,13 @@ const displayData = (data) => {
     event__details.appendChild(event__from);
     event__details.appendChild(event__location);
 
+    if (ORGANIZATIONS.includes(data[i].event_organizer)) {
+      var event__tag = document.createElement("div");
+      event__tag.className = "event__tag";
+      event__tag.innerHTML = `<i class="fa-solid fa-award fa-lg"></i>Recommended`;
+      event__details.appendChild(event__tag);
+    }
+    
     var event__calendar = document.createElement("div");
     event__calendar.className = "event__calendar";
     event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-2xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
@@ -83,7 +92,7 @@ chrome.storage.local.get(["notification_status", "events_data"], (result) => {
   const {notification_status, events_data} = result;
 
   addNotificationToggle(notification_status);
-  displayData(events_data)
+  displayData(events_data);
 })
 
 chrome.runtime.sendMessage({popupOpen: true});
