@@ -176,9 +176,9 @@ header {
 }
 
 .event__tag {
-  color: var(--dark-gray); 
-  font-size: 0.8rem; 
-  background-color: var(--gold); 
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+  background-color: var(--gold);
   border-radius: 18px;
   width: fit-content;
   align-items: center;
