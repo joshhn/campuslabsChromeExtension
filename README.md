@@ -10,21 +10,21 @@
   <a href="https://github.com/joshhn/campuslabsChromeExtention/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/>
   </a>
-  <a href="">
+  <!-- <a href="">
     <img src="https://img.shields.io/chrome-web-store/v/joshhn.svg" alt="chrome-webstore"/>
   </a>
   <a href="">
     <img src="https://img.shields.io/chrome-web-store/d/joshhn.svg" alt="users">
-  </a>
+  </a> -->
   <a href="https://github.com/joshhn/campuslabsChromeExtention/graphs/contributors" alt="Contributors">
     <img src="https://img.shields.io/github/contributors/joshhn/campuslabsChromeExtention" />
   </a>
 </p>
 
-<div align="center">
+<!-- <div align="center">
 
   [![Chrome](https://user-images.githubusercontent.com/53124886/111952712-34f12300-8aee-11eb-9fdd-ad579a1eb235.png)](<INSERT>)
-</div>
+</div> -->
 
 ## What is CampusLabs Chrome Extension?
 
