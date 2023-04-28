@@ -63,7 +63,7 @@ This repository contains code for the CampusLabs Chrome Extension written in HTM
   <li>Follow the below instruction to install Poetry and run scraper script</li>
 </ol>
 
-#### BONUS⭐: Star [this repository](https://github.com/joshhn/campuslabsChromeExtention) for further development of features. If you want a particular feature, simply [request](https://github.com/joshhn/campuslabsChromeExtention/labels/feature) for it!
+#### BONUS: Star ⭐ [this repository](https://github.com/joshhn/campuslabsChromeExtention) for further development of features. If you want a particular feature, simply [request](https://github.com/joshhn/campuslabsChromeExtention/labels/feature) for it!
 
 ### Environment variables
 
@@ -72,7 +72,7 @@ Before running the scraper script, one needs to install [Poetry - A Dependency M
 ### Install Poetry
 
 See instructions [on the official website](https://python-poetry.org/docs/master/#installation) to install Poetry.
-When possible, it is recommended to use the same version of poetry as the one used in CI workflows. The currently selected version is 1.4.1.
+When possible, it is recommended to use the same version of poetry as the one used in CI workflows. The currently selected version is 1.4.2.
 
 To check if Poetry is already installed:
 
