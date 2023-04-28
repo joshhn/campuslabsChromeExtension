@@ -1,23 +1,5 @@
 [
     {
-        "event_name": "Lucy Pattie Fifa Tournament",
-        "event_time_from": "Thursday, April 27 2023 at 7:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 9:00 PM",
-        "event_location": "Sigma Alpha Epsilon",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9078485",
-        "event_organizer": "Sigma Alpha Epsilon",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "DePauwCappella Dress Rehearsal",
-        "event_time_from": "Thursday, April 27 2023 at 9:00 PM",
-        "event_time_to": "Thursday, April 27 2023 at 10:00 PM",
-        "event_location": "MeHarry Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9079748",
-        "event_organizer": "DePauwCappella",
-        "event_icon": "None"
-    },
-    {
         "event_name": "DePauw Social Promise Bake Sale",
         "event_time_from": "Friday, April 28 2023 at 11:00 AM",
         "event_time_to": "Friday, April 28 2023 at 12:00 PM",
