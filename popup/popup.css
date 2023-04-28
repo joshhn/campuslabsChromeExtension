@@ -3,15 +3,17 @@ html {
 }
 
 body {
+  --light-gray: #f9fafb;
+  --mid-gray: #ededed;
+  --dark-gray: #302c2c;
+  --gold: #ffcf01;
+
   margin: 0;
   display: grid;
   height: 100vh;
   place-items: center;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #302c2c;
-  --light-gray: #f9fafb;
-  --mid-gray: #ededed;
-  --gold: #ffcf01;
+  color: var(--dark-gray);
 }
 
 a {
@@ -171,4 +173,19 @@ header {
 .event__toggle input[type="checkbox"]:checked + label:after {
   left: 29px;
   background: #FFF;
+}
+
+.event__tag {
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+  background-color: var(--gold);
+  border-radius: 18px;
+  width: fit-content;
+  align-items: center;
+  margin-top: 5px;
+  padding: 2px 7px;
+}
+
+.event__tag i {
+  margin-right: 5px;
 }

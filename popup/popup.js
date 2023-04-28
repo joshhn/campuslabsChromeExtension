@@ -1,22 +1,16 @@
-const toggleElement = document.getElementById("notificationId")
-toggleElement.addEventListener("click", () => {
-  if(toggleElement.checked){
-    chrome.runtime.sendMessage({notification_status: "ON"})
-  }else {
-    chrome.runtime.sendMessage({notification_status: "OFF"})
-  }
-});
+import { ORGANIZATIONS } from "./organizations.js";
 
 const displayData = (data) => {
   var mainContainer = document.getElementById("event__info");
 
-  if (data.length == 0) {
+  if (data == null || data.length == 0) {
     var event__item = document.createElement("div");
     event__item.className = "event__item";
     event__item.innerText = "No Upcoming Events";
     event__item.style.justifyContent = "center";
     event__item.style.fontSize = "1rem";
     mainContainer.appendChild(event__item);
+    return;
   }
 
   for (var i = 0; i < data.length; i++) {
@@ -52,6 +46,13 @@ const displayData = (data) => {
     event__details.appendChild(event__from);
     event__details.appendChild(event__location);
 
+    if (ORGANIZATIONS.includes(data[i].event_organizer)) {
+      var event__tag = document.createElement("div");
+      event__tag.className = "event__tag";
+      event__tag.innerHTML = `<i class="fa-solid fa-award fa-lg"></i>Recommended`;
+      event__details.appendChild(event__tag);
+    }
+
     var event__calendar = document.createElement("div");
     event__calendar.className = "event__calendar";
     event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-2xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
@@ -70,14 +71,28 @@ const addToCalendar = (event) => {
   window.open(event.target.getAttribute("value") + "/googlepublish", "_blank");
 }
 
+const addNotificationToggle = (notification_status) => {
+  const event__toggle = document.getElementById("event__toggle")
+
+  var toggleElement = document.createElement("input");
+  toggleElement.type = "checkbox";
+  toggleElement.checked = (notification_status === "ON");
+
+  toggleElement.addEventListener("click", () => {
+    chrome.runtime.sendMessage({notification_status: toggleElement.checked ? "ON" : "OFF"});
+  });
+
+  var label = document.createElement("label");
+
+  event__toggle.appendChild(toggleElement);
+  event__toggle.appendChild(label);
+}
+
 chrome.storage.local.get(["notification_status", "events_data"], (result) => {
   const {notification_status, events_data} = result;
-  if (notification_status === "ON") {
-    toggleElement.checked = true;
-  }else{
-    toggleElement.checked = false;
-  }
-  displayData(events_data)
+
+  addNotificationToggle(notification_status);
+  displayData(events_data);
 })
 
 chrome.runtime.sendMessage({popupOpen: true});
