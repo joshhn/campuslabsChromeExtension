@@ -52,7 +52,7 @@ const displayData = (data) => {
       event__tag.innerHTML = `<i class="fa-solid fa-award fa-lg"></i>Recommended`;
       event__details.appendChild(event__tag);
     }
-    
+
     var event__calendar = document.createElement("div");
     event__calendar.className = "event__calendar";
     event__calendar.innerHTML = `<i class="fa-regular fa-calendar-plus fa-2xl" title="Add to Google Calendar" value=${data[i].event_url}></i>`;
