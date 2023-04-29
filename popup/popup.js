@@ -24,7 +24,7 @@ const displayData = (data) => {
     if (data[i].event_icon === "None") {
       event__icon.src = "../images/icon128.png"
     } else {
-      event__icon.src = data[i].event_icon
+      event__icon.src = data[i].event_icon+ "?preset=med-sq";
     }
 
     var event__details = document.createElement("div");
@@ -128,7 +128,7 @@ chrome.storage.local.get(["theme_status", "notification_status", "events_data"],
   const {theme_status, notification_status, events_data} = result;
 
   if (theme_status == null) {
-    theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark-mode" : "light-mode";
+    let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark-mode" : "light-mode";
     chrome.runtime.sendMessage({theme_status: theme});
     addThemeToggle(theme);
   }
