@@ -19,10 +19,11 @@ const createAlarm = (alarmName, alarmPeriod) => {
   })
 }
 
-const stopAlarm = (alarmName) => {
-  console.log("Alarm is stopped!")
-  chrome.alarms.clear(alarmName)
-}
+// Keep for future use
+// const stopAlarm = (alarmName) => {
+//   console.log("Alarm is stopped!")
+//   chrome.alarms.clear(alarmName)
+// }
 
 const createNotification = (notificationName) => {
   console.log("Notification is created!")
@@ -40,14 +41,14 @@ const stopNotification = (notificationName) => {
   chrome.notifications.clear(notificationName)
 }
 
-const turnNotificationOn = () => {
-  console.log("Received on");
-  createAlarm(UPDATE_DATA_ALARM_NAME, DAY_IN_MINUTES);
-}
+// Keep for future use
+// const turnNotificationOn = () => {
+//   console.log("Received on");
+//   
+// }
 
 const turnNotificationOff = () => {
   console.log("Received off");
-  stopAlarm(UPDATE_DATA_ALARM_NAME);
   stopNotification(DAILY_NOTIFICATION_NAME)
 }
 
@@ -76,9 +77,7 @@ chrome.runtime.onMessage.addListener(data => {
     changeBadge('', '#F55050');
   } else if(data.theme_status){
     chrome.storage.local.set({theme_status: data.theme_status});
-  } else if(data.notification_status === "ON"){
-    turnNotificationOn();
-  } else {
+  } else if(data.notification_status === "OFF"){
     turnNotificationOff();
   }
 });
