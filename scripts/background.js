@@ -42,7 +42,7 @@ const stopNotification = (notificationName) => {
 
 const turnNotificationOn = () => {
   console.log("Received on");
-  // Keep for future use
+  createAlarm(UPDATE_DATA_ALARM_NAME, DAY_IN_MINUTES);
 }
 
 const turnNotificationOff = () => {

@@ -1,4 +1,4 @@
-const EVENTS_ENDPOINT = 'https://raw.githubusercontent.com/joshhn/temp/main/campuslabs_events_data.json';
+const EVENTS_ENDPOINT = 'https://raw.githubusercontent.com/joshhn/campuslabsChromeExtention/daily-update/data-scraper/campuslabs_events_data.json';
 
 export default function fetchEvents() {
   fetch(EVENTS_ENDPOINT)
