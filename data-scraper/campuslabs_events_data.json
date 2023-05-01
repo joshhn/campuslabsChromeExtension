@@ -1,167 +1,5 @@
 [
     {
-        "event_name": "DePauw Social Promise Bake Sale",
-        "event_time_from": "Friday, April 28 2023 at 11:00 AM",
-        "event_time_to": "Friday, April 28 2023 at 12:00 PM",
-        "event_location": "Table In Front of Julian",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8905561",
-        "event_organizer": "Social Promise",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
-    },
-    {
-        "event_name": "Health Professions Application Bootcamp",
-        "event_time_from": "Monday, April 24 2023 at 11:30 AM",
-        "event_time_to": "Friday, April 28 2023 at 12:30 PM",
-        "event_location": "Union Building 230",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9046297",
-        "event_organizer": "Hubbard Center for Student Engagement",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/a05b14dd-6f6b-47e0-b022-2c61cc77a6077dd1295d-eb8d-466c-8494-b2a90d8cb554.png"
-    },
-    {
-        "event_name": "[TigerHacks '23] Presentation Day",
-        "event_time_from": "Friday, April 28 2023 at 4:00 PM",
-        "event_time_to": "Friday, April 28 2023 at 6:00 PM",
-        "event_location": "Roy 119",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9058492",
-        "event_organizer": "Association for Computing Machinery - Women",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
-    },
-    {
-        "event_name": "Riley Clark, flute: Senior Degree Recital",
-        "event_time_from": "Friday, April 28 2023 at 5:30 PM",
-        "event_time_to": "Friday, April 28 2023 at 6:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9050756",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Sigma Nu Cornhole Tournament",
-        "event_time_from": "Friday, April 28 2023 at 5:00 PM",
-        "event_time_to": "Friday, April 28 2023 at 8:00 PM",
-        "event_location": "Bowman Park",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9079716",
-        "event_organizer": "Sigma Nu",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/5ab4dca2-9eb8-4c3a-b4b9-b1ab1ebe82fbd09f02aa-94a5-4f09-adb9-76bad47e6b51.jpg"
-    },
-    {
-        "event_name": "Emily Scharf, soprano and Grant Jackson, baritone: Junior Degree Recitals",
-        "event_time_from": "Friday, April 28 2023 at 7:30 PM",
-        "event_time_to": "Friday, April 28 2023 at 8:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9050768",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "McKim Observatory Open House",
-        "event_time_from": "Friday, April 28 2023 at 9:30 PM",
-        "event_time_to": "Friday, April 28 2023 at 10:30 PM",
-        "event_location": "McKim Obsevatory",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8715617",
-        "event_organizer": "McKim Observatory",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "DePauw OLympics",
-        "event_time_from": "Saturday, April 29 2023 at 12:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 2:00 PM",
-        "event_location": "Claasics Lounge",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9078440",
-        "event_organizer": "Classics Club",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/1a4667de-77f3-4008-ba34-140549ab24ca3cfcb1ae-cdee-4a78-9617-cf8a401fd8e6.jpg"
-    },
-    {
-        "event_name": "*Clay Modeling Workshop",
-        "event_time_from": "Saturday, April 29 2023 at 1:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 3:00 PM",
-        "event_location": "The Richard E. Peeler Art Center, Lobby",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9079505",
-        "event_organizer": "Art Galleries & University Collections",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
-    },
-    {
-        "event_name": "Lily Rutledge, viola: Senior Degree Recital",
-        "event_time_from": "Saturday, April 29 2023 at 2:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 3:00 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9050776",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Playwrights Festival",
-        "event_time_from": "Saturday, April 29 2023 at 5:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 6:00 PM",
-        "event_location": "Kerr Theatre (GCPA)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9061476",
-        "event_organizer": "Alpha Psi Omega (Duzer Du)",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/0ab592c9-7bc0-4344-b3dc-d524ec27d7bece36de88-6d4b-4704-bdef-077c89678962.png"
-    },
-    {
-        "event_name": "Fran Wycoff, vocal: Junior Degree Recital",
-        "event_time_from": "Saturday, April 29 2023 at 7:30 PM",
-        "event_time_to": "Saturday, April 29 2023 at 8:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9050817",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "DISA International Formal 2023",
-        "event_time_from": "Saturday, April 29 2023 at 5:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 9:00 PM",
-        "event_location": "Prindle Institute (gather outside UB facing Mason and Lucy)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9058496",
-        "event_organizer": "DePauw International Student Association",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/d5b27472-5fd8-43f9-bf80-a3cf8cd8789287e90b60-fbe5-45e8-9615-38361ffd8299.jpg"
-    },
-    {
-        "event_name": "DISA Spring Formal '23",
-        "event_time_from": "Saturday, April 29 2023 at 6:00 PM",
-        "event_time_to": "Saturday, April 29 2023 at 9:00 PM",
-        "event_location": "Prindle Institute, DePauw Nature Park",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9061440",
-        "event_organizer": "DePauw International Student Association",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/d5b27472-5fd8-43f9-bf80-a3cf8cd8789287e90b60-fbe5-45e8-9615-38361ffd8299.jpg"
-    },
-    {
-        "event_name": "4/30 Symphonic Band Concert",
-        "event_time_from": "Sunday, April 30 2023 at 3:00 PM",
-        "event_time_to": "Sunday, April 30 2023 at 4:30 PM",
-        "event_location": "Kresge Auditorium",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8140572",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Japanese Spring Festival",
-        "event_time_from": "Sunday, April 30 2023 at 4:00 PM",
-        "event_time_to": "Sunday, April 30 2023 at 5:00 PM",
-        "event_location": "Stewart Plaza",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9052422",
-        "event_organizer": "J-Club",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/2e0545de-8764-4885-b348-733a6722a472697e955c-2813-48e9-a078-73ec5711826a.png"
-    },
-    {
-        "event_name": "Contemporary Ensemble Closing Concert",
-        "event_time_from": "Sunday, April 30 2023 at 7:30 PM",
-        "event_time_to": "Sunday, April 30 2023 at 8:30 PM",
-        "event_location": "Thompson Auditorium",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8918868",
-        "event_organizer": "Contemporary Ensemble Club",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/e75a1d16-4bc1-4df3-b3f4-d8e5369206c2c254ca0f-fc0b-4277-97f3-f0c158241345.png"
-    },
-    {
-        "event_name": "DePauw Art Walk Festival",
-        "event_time_from": "Friday, April 28 2023 at 11:30 AM",
-        "event_time_to": "Sunday, April 30 2023 at 9:00 PM",
-        "event_location": "DePauw University",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9078449",
-        "event_organizer": "DePauw Art Walk",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/e75a1d16-4bc1-4df3-b3f4-d8e5369206c2c254ca0f-fc0b-4277-97f3-f0c158241345.png"
-    },
-    {
         "event_name": "DePauw Student Investment Group Meeting",
         "event_time_from": "Monday, May 1 2023 at 11:30 AM",
         "event_time_to": "Monday, May 1 2023 at 12:30 PM",
@@ -324,6 +162,24 @@
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
+        "event_name": "Off-Campus Study Pre-Departure Info session",
+        "event_time_from": "Wednesday, May 10 2023 at 11:30 AM",
+        "event_time_to": "Wednesday, May 10 2023 at 12:15 PM",
+        "event_location": "Hubbard Center, Union Building 230 B",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9083634",
+        "event_organizer": "Hubbard Center for Student Engagement",
+        "event_icon": "None"
+    },
+    {
+        "event_name": "Off-Campus Study Pre-Departure Info session",
+        "event_time_from": "Wednesday, May 10 2023 at 4:00 PM",
+        "event_time_to": "Wednesday, May 10 2023 at 4:45 PM",
+        "event_location": "Hubbard Center, Union Building 230 B",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9083650",
+        "event_organizer": "Hubbard Center for Student Engagement",
+        "event_icon": "None"
+    },
+    {
         "event_name": "LeetCode Night with WiCS",
         "event_time_from": "Wednesday, May 10 2023 at 4:00 PM",
         "event_time_to": "Wednesday, May 10 2023 at 5:00 PM",
@@ -331,6 +187,15 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/8945630",
         "event_organizer": "Association for Computing Machinery - Women",
         "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
+    },
+    {
+        "event_name": "Off-Campus Study Pre-Departure Info session",
+        "event_time_from": "Wednesday, May 10 2023 at 6:30 PM",
+        "event_time_to": "Wednesday, May 10 2023 at 7:15 PM",
+        "event_location": "Hubbard Center, Union Building 230 B",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9083654",
+        "event_organizer": "Hubbard Center for Student Engagement",
+        "event_icon": "None"
     },
     {
         "event_name": "DePauw Social Promise General Meeting",
