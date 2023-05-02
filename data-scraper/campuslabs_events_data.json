@@ -1,41 +1,5 @@
 [
     {
-        "event_name": "DePauw Student Investment Group Meeting",
-        "event_time_from": "Monday, May 1 2023 at 11:30 AM",
-        "event_time_to": "Monday, May 1 2023 at 12:30 PM",
-        "event_location": "Julian 147",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9074322",
-        "event_organizer": "McDermond Center Investment Group",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "YoungLife Club",
-        "event_time_from": "Monday, May 1 2023 at 8:00 PM",
-        "event_time_to": "Monday, May 1 2023 at 9:30 PM",
-        "event_location": "Center for Spiritual Life",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8889416",
-        "event_organizer": "Young Life",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/95ce0d54-ad28-488b-8063-2c20bdd440a6d40ac898-33a0-4387-b0cd-8ccff3dbac99.jpeg"
-    },
-    {
-        "event_name": "DePauwCappella Spring Concert",
-        "event_time_from": "Monday, May 1 2023 at 7:30 PM",
-        "event_time_to": "Monday, May 1 2023 at 10:00 PM",
-        "event_location": "MeHarry Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9078435",
-        "event_organizer": "DePauwCappella",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "5/2 String and General Chamber Music",
-        "event_time_from": "Tuesday, May 2 2023 at 7:30 PM",
-        "event_time_to": "Tuesday, May 2 2023 at 8:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8140666",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
         "event_name": "5/3 SOM Convocation",
         "event_time_from": "Wednesday, May 3 2023 at 10:20 AM",
         "event_time_to": "Wednesday, May 3 2023 at 11:20 AM",
@@ -43,6 +7,15 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/8125786",
         "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
+    },
+    {
+        "event_name": "DePauw Libraries Senior Research Symposium",
+        "event_time_from": "Wednesday, May 3 2023 at 11:00 AM",
+        "event_time_to": "Wednesday, May 3 2023 at 1:15 PM",
+        "event_location": "Roy O. West Library - The Wood Study",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9085478",
+        "event_organizer": "DePauw Libraries",
+        "event_icon": "None"
     },
     {
         "event_name": "LeetCode Night with WiCS",
