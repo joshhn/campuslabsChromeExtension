@@ -1,75 +1,21 @@
 [
     {
-        "event_name": "5/3 SOM Convocation",
-        "event_time_from": "Wednesday, May 3 2023 at 10:20 AM",
-        "event_time_to": "Wednesday, May 3 2023 at 11:20 AM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8125786",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "DePauw Libraries Senior Research Symposium",
-        "event_time_from": "Wednesday, May 3 2023 at 11:00 AM",
-        "event_time_to": "Wednesday, May 3 2023 at 1:15 PM",
-        "event_location": "Roy O. West Library - The Wood Study",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9085478",
-        "event_organizer": "DePauw Libraries",
-        "event_icon": "None"
-    },
-    {
-        "event_name": "LeetCode Night with WiCS",
-        "event_time_from": "Wednesday, May 3 2023 at 4:00 PM",
-        "event_time_to": "Wednesday, May 3 2023 at 5:00 PM",
-        "event_location": "Julian Room 108",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8945629",
-        "event_organizer": "Association for Computing Machinery - Women",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
-    },
-    {
-        "event_name": "The Brotherhood Study Tables @CDI",
-        "event_time_from": "Wednesday, May 3 2023 at 6:30 PM",
-        "event_time_to": "Wednesday, May 3 2023 at 8:00 PM",
-        "event_location": "CDI",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8945531",
-        "event_organizer": "The Brotherhood",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/20d9bc58-153d-4717-ab8a-982554a8f042f6e2625e-0404-4927-931a-4aa721e31960.jpg"
-    },
-    {
-        "event_name": "Film Screening: Liminal: Indiana in the Anthropocene",
-        "event_time_from": "Wednesday, May 3 2023 at 7:00 PM",
-        "event_time_to": "Wednesday, May 3 2023 at 8:30 PM",
-        "event_location": "Peeler Auditorium, Peeler Art Center",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9057032",
-        "event_organizer": "Environmental Fellows Program",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/6a228b4a-7337-49e1-9506-47440523516abe2c20ac-b34a-4ac2-8547-3b73cb47a4ee.jpg"
-    },
-    {
-        "event_name": "FIFA Tournament '23",
-        "event_time_from": "Thursday, May 4 2023 at 5:00 PM",
-        "event_time_to": "Thursday, May 4 2023 at 8:00 PM",
-        "event_location": "Tenzer Tech Lab (ROW 203)",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9077589",
-        "event_organizer": "Tenzer Technology Center",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/07ba124c-c760-4f9a-ae7c-b5dd8690db0a72e2042a-e664-4c92-8a03-91a7df76ff57.jpg"
-    },
-    {
-        "event_name": "5/4 String and General Chamber Music",
-        "event_time_from": "Thursday, May 4 2023 at 7:30 PM",
-        "event_time_to": "Thursday, May 4 2023 at 8:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8140705",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
         "event_name": "Artist Talk:  Marc Fischer",
         "event_time_from": "Friday, May 5 2023 at 4:30 PM",
         "event_time_to": "Friday, May 5 2023 at 5:30 PM",
-        "event_location": "The Richard E. Peeler Art Center, Auditorium",
+        "event_location": "The Richard E. Peeler Art Center, University Gallery (lower level)",
         "event_url": "https://depauw.campuslabs.com/engage/event/9054451",
         "event_organizer": "Art Galleries & University Collections",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
+        "event_name": "Joseph Porter's 'Power Laundering\" & Honoring New Majors",
+        "event_time_from": "Friday, May 5 2023 at 4:30 PM",
+        "event_time_to": "Friday, May 5 2023 at 6:00 PM",
+        "event_location": "Asbury 302",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088647",
+        "event_organizer": "The DePauw Philosophy Club",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/f303d201-a7eb-4d94-afa6-afac468b3591dc863fa3-8bc8-484f-bec8-2525c0560664.png"
     },
     {
         "event_name": "The Heat Majorette Dance Team Block Party",
@@ -108,11 +54,65 @@
         "event_icon": "https://se-images.campuslabs.com/clink/images/a05b14dd-6f6b-47e0-b022-2c61cc77a6077dd1295d-eb8d-466c-8494-b2a90d8cb554.png"
     },
     {
+        "event_name": "DHARMA Holi",
+        "event_time_from": "Saturday, May 6 2023 at 1:00 PM",
+        "event_time_to": "Saturday, May 6 2023 at 4:00 PM",
+        "event_location": "Bowman Park",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088635",
+        "event_organizer": "Dharma",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/c82f3a47-7cea-45f0-b320-752e60c408cf55495396-0eee-401b-b3d4-446d9ac62966.jpg"
+    },
+    {
+        "event_name": "Rock Climbing at Hoosier Heights!",
+        "event_time_from": "Saturday, May 6 2023 at 11:30 AM",
+        "event_time_to": "Saturday, May 6 2023 at 5:00 PM",
+        "event_location": "Parking Lot behind Alpha Phi (Corner of Central Ave and Hannah St)",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088648",
+        "event_organizer": "DePauw Rock Climbing Club",
+        "event_icon": "None"
+    },
+    {
+        "event_name": "Aaron Sandel Senior Degree, saxophone Recital",
+        "event_time_from": "Saturday, May 6 2023 at 5:00 PM",
+        "event_time_to": "Saturday, May 6 2023 at 6:00 PM",
+        "event_location": "Music on the Square (M2)",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088127",
+        "event_organizer": "School of Music",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
+    },
+    {
+        "event_name": "Levi Stewart senior degree, saxophone recital",
+        "event_time_from": "Saturday, May 6 2023 at 7:30 PM",
+        "event_time_to": "Saturday, May 6 2023 at 8:30 PM",
+        "event_location": "Thompson Recital Hall",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088130",
+        "event_organizer": "School of Music",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
+    },
+    {
+        "event_name": "plein air Painting Workshop",
+        "event_time_from": "Sunday, May 7 2023 at 1:00 PM",
+        "event_time_to": "Sunday, May 7 2023 at 4:00 PM",
+        "event_location": "DePauw University, Nature Park",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088806",
+        "event_organizer": "Department of Art and Art History",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
         "event_name": "5/7 University Orchestra Concert",
         "event_time_from": "Sunday, May 7 2023 at 3:00 PM",
         "event_time_to": "Sunday, May 7 2023 at 4:30 PM",
         "event_location": "Kresge Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/8140706",
+        "event_organizer": "School of Music",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
+    },
+    {
+        "event_name": "Molly Murphy Junior Degree, vocal recital",
+        "event_time_from": "Sunday, May 7 2023 at 7:30 PM",
+        "event_time_to": "Sunday, May 7 2023 at 8:30 PM",
+        "event_location": "Thompson Recital Hall",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088133",
         "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
@@ -162,6 +162,15 @@
         "event_icon": "https://se-images.campuslabs.com/clink/images/da2f4fe5-dc5f-4bdf-a36e-8efabfbecb1682f962cd-51fb-417d-a621-14337b973d1a.png"
     },
     {
+        "event_name": "Tenzer Spring De-Stressor '23",
+        "event_time_from": "Wednesday, May 10 2023 at 4:00 PM",
+        "event_time_to": "Wednesday, May 10 2023 at 7:00 PM",
+        "event_location": "Roy O. West 2nd Floor",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9089344",
+        "event_organizer": "Tenzer Technology Center",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/0d74337c-1c1f-4433-957d-6cc9c13cb5f95d0e4d37-2d7b-438d-88ed-a809050ede35.jpg"
+    },
+    {
         "event_name": "Off-Campus Study Pre-Departure Info session",
         "event_time_from": "Wednesday, May 10 2023 at 6:30 PM",
         "event_time_to": "Wednesday, May 10 2023 at 7:15 PM",
@@ -178,6 +187,15 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/8830162",
         "event_organizer": "Social Promise",
         "event_icon": "https://se-images.campuslabs.com/clink/images/348ec000-611e-4cd6-9278-03c35a70f74819f12f5e-a914-480d-8678-f06071c681b1.png"
+    },
+    {
+        "event_name": "William BonDurant Senior Degree, tuba Recital",
+        "event_time_from": "Wednesday, May 10 2023 at 7:30 PM",
+        "event_time_to": "Wednesday, May 10 2023 at 8:30 PM",
+        "event_location": "Thompson Recital Hall",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9088136",
+        "event_organizer": "School of Music",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
     },
     {
         "event_name": "Black Men's Retreat",
@@ -204,7 +222,7 @@
         "event_location": "The Richard E. Peeler Art Center, Auditorium",
         "event_url": "https://depauw.campuslabs.com/engage/event/9063282",
         "event_organizer": "Film Studies",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/16915c95-a19f-44be-ac04-7ba3a81bf26c8563c2b2-3694-4609-b429-2076685567f5.jpg"
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
         "event_name": "Faculty Panel:  How to Blow Up a Pipe Line",
