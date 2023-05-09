@@ -1,32 +1,5 @@
 [
     {
-        "event_name": "plein air Painting Workshop",
-        "event_time_from": "Sunday, May 7 2023 at 1:00 PM",
-        "event_time_to": "Sunday, May 7 2023 at 4:00 PM",
-        "event_location": "DePauw University, Nature Park",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9088806",
-        "event_organizer": "Department of Art and Art History",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
-    },
-    {
-        "event_name": "5/7 University Orchestra Concert",
-        "event_time_from": "Sunday, May 7 2023 at 3:00 PM",
-        "event_time_to": "Sunday, May 7 2023 at 4:30 PM",
-        "event_location": "Kresge Auditorium",
-        "event_url": "https://depauw.campuslabs.com/engage/event/8140706",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
-        "event_name": "Molly Murphy Junior Degree, vocal recital",
-        "event_time_from": "Sunday, May 7 2023 at 7:30 PM",
-        "event_time_to": "Sunday, May 7 2023 at 8:30 PM",
-        "event_location": "Thompson Recital Hall",
-        "event_url": "https://depauw.campuslabs.com/engage/event/9088133",
-        "event_organizer": "School of Music",
-        "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
-    },
-    {
         "event_name": "Kirk Johnson \"The Last Supper and The First Meal: Julie Green\u2019s Crusade into Art, Food and Criminal Justice.\"",
         "event_time_from": "Tuesday, May 9 2023 at 4:30 PM",
         "event_time_to": "Tuesday, May 9 2023 at 5:30 PM",
@@ -34,6 +7,15 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/9048574",
         "event_organizer": "None",
         "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
+        "event_name": "ROMEO & JULIET AT BRIDGERTON INTEREST MEETINGS",
+        "event_time_from": "Tuesday, May 9 2023 at 5:00 PM",
+        "event_time_to": "Tuesday, May 9 2023 at 6:00 PM",
+        "event_location": "The Green Center for Performing Arts, 1202",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9092825",
+        "event_organizer": "DePauw Theatre",
+        "event_icon": "None"
     },
     {
         "event_name": "5/10 SOM Convocation",
@@ -106,6 +88,42 @@
         "event_url": "https://depauw.campuslabs.com/engage/event/9088136",
         "event_organizer": "School of Music",
         "event_icon": "https://se-images.campuslabs.com/clink/images/cb6ea856-a09b-4c2d-b487-89e5b264ae88da9e7905-a0d5-415c-a71e-88a0b35b4a7e.png"
+    },
+    {
+        "event_name": "COSoC Study Conference: With Donuts!",
+        "event_time_from": "Wednesday, May 10 2023 at 7:00 PM",
+        "event_time_to": "Wednesday, May 10 2023 at 9:00 PM",
+        "event_location": "Roy O. West Library, Conference Room 206A",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9092510",
+        "event_organizer": "Computing Opportunities for Students of Color",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/3475ac28-60d5-4670-8442-88d504832a5463a700bc-7de9-44d4-a23a-09dc36f2e0e2.png"
+    },
+    {
+        "event_name": "Art + Art History Department Bridge Year Fellow Presentations",
+        "event_time_from": "Thursday, May 11 2023 at 11:45 AM",
+        "event_time_to": "Thursday, May 11 2023 at 12:30 PM",
+        "event_location": "The Richard E. Peeler Art Center, Auditorium",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9092828",
+        "event_organizer": "Department of Art and Art History",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
+        "event_name": "Art + Art History Department Major Minor Mixer*",
+        "event_time_from": "Thursday, May 11 2023 at 5:00 PM",
+        "event_time_to": "Thursday, May 11 2023 at 6:00 PM",
+        "event_location": "The Richard E. Peeler Art Center, Courtyard",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9092830",
+        "event_organizer": "Department of Art and Art History",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
+    },
+    {
+        "event_name": "Art + Art History Spring Open House & 5x5 Art Sale*",
+        "event_time_from": "Thursday, May 11 2023 at 5:00 PM",
+        "event_time_to": "Thursday, May 11 2023 at 8:00 PM",
+        "event_location": "The Richard E. Peeler Art Center",
+        "event_url": "https://depauw.campuslabs.com/engage/event/9092832",
+        "event_organizer": "Department of Art and Art History",
+        "event_icon": "https://se-images.campuslabs.com/clink/images/9170093c-d9b2-45e6-97d9-174507936f86dc95ac62-246e-49e0-b07d-139f09291fec.jpg"
     },
     {
         "event_name": "Black Men's Retreat",
