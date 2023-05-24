@@ -95,6 +95,7 @@ class CampusLabsScraper:
             self.scroll_down()
             time.sleep(2)
             self.get_button()
+            time.sleep(2)
             reload_times -= 1
 
         soup = (

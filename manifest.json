@@ -15,7 +15,7 @@
     "default_icon": "./images/depauw-icon.png"
   },
   "permissions": [
-    "alarms", "notifications", "storage", "tabs"
+    "alarms", "notifications", "storage"
   ],
   "background": {
     "service_worker": "scripts/background.js",

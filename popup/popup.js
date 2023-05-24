@@ -1,6 +1,6 @@
 import { ORGANIZATIONS } from "./organizations.js";
 
-const displayData = (data) => {
+export default function displayData(data) {
   var mainContainer = document.getElementById("event__info");
 
   if (data == null || data.length == 0) {

@@ -1,4 +1,5 @@
 import fetchEvents from "../api/fetchEventsData.js"
+import displayData from "../popup/popup.js"
 
 const UPDATE_DATA_ALARM_NAME = "UPDATE_DATA_ALARM"
 const DAILY_NOTIFICATION_NAME = "DAILY_NOTIFICATION"
@@ -19,12 +20,6 @@ const createAlarm = (alarmName, alarmPeriod) => {
   })
 }
 
-// Keep for future use
-// const stopAlarm = (alarmName) => {
-//   console.log("Alarm is stopped!")
-//   chrome.alarms.clear(alarmName)
-// }
-
 const createNotification = (notificationName) => {
   console.log("Notification is created!")
   chrome.notifications.create(notificationName,
@@ -41,15 +36,9 @@ const stopNotification = (notificationName) => {
   chrome.notifications.clear(notificationName)
 }
 
-// Keep for future use
-// const turnNotificationOn = () => {
-//   console.log("Received on");
-//
-// }
-
 const turnNotificationOff = () => {
   console.log("Received off");
-  stopNotification(DAILY_NOTIFICATION_NAME)
+  stopNotification(DAILY_NOTIFICATION_NAME);
 }
 
 chrome.alarms.onAlarm.addListener(() => {
@@ -59,8 +48,9 @@ chrome.alarms.onAlarm.addListener(() => {
       createNotification(DAILY_NOTIFICATION_NAME);
     }
     console.log("Alarm is working...");
-    changeBadge(' ', '#F55050');
     fetchEvents();
+    displayData();
+    changeBadge(' ', '#F55050');
   })
 });
 
@@ -84,5 +74,6 @@ chrome.runtime.onMessage.addListener(data => {
 
 chrome.notifications.onClicked.addListener(() => {
   console.log("Notification is clicked");
-  chrome.tabs.create({ url: "https://depauw.campuslabs.com/engage/events"})
+  chrome.tabs.create({ url: "https://depauw.campuslabs.com/engage/events"});
+  stopNotification(DAILY_NOTIFICATION_NAME);
 });
