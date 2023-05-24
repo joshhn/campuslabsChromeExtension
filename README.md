@@ -11,10 +11,10 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/>
   </a>
   <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf">
-    <img src="https://img.shields.io/chrome-web-store/v/joshhn.svg" alt="chrome-webstore"/>
+    <img src="https://img.shields.io/chrome-web-store/v/njeihpoaogilklckaogpdflpfgljojlf.svg" alt="chrome-webstore"/>
   </a>
   <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf">
-    <img src="https://img.shields.io/chrome-web-store/d/joshhn.svg" alt="users">
+    <img src="https://img.shields.io/chrome-web-store/d/njeihpoaogilklckaogpdflpfgljojlf.svg" alt="users">
   </a>
   <a href="https://github.com/joshhn/campuslabsChromeExtention/graphs/contributors" alt="Contributors">
     <img src="https://img.shields.io/github/contributors/joshhn/campuslabsChromeExtention" />
