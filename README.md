@@ -1,7 +1,7 @@
 <h1 align="center">
-  <a href="https://standardjs.com"><img src="images/octotiger.png" alt="CampusLabs Chrome Extension - Quick Search Upcoming Events at DePauw." width="300"></a>
+  <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf"><img src="images/octotiger.png" alt="CampusLabs Chrome Extension - Quick Search Upcoming Events at DePauw." width="300"></a>
   <br>
-  <a href="<INSERT>">CampusLabs Chrome Extension</a> - Quick Search Upcoming Events at DePauw.
+  <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf">CampusLabs Chrome Extension</a> - Quick Search Upcoming Events at DePauw.
   <br>
   <br>
 </h1>
@@ -10,21 +10,21 @@
   <a href="https://github.com/joshhn/campuslabsChromeExtention/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/>
   </a>
-  <!-- <a href="">
-    <img src="https://img.shields.io/chrome-web-store/v/joshhn.svg" alt="chrome-webstore"/>
+  <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf">
+    <img src="https://img.shields.io/chrome-web-store/v/njeihpoaogilklckaogpdflpfgljojlf.svg" alt="chrome-webstore"/>
   </a>
-  <a href="">
-    <img src="https://img.shields.io/chrome-web-store/d/joshhn.svg" alt="users">
-  </a> -->
+  <a href="https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf">
+    <img src="https://img.shields.io/chrome-web-store/d/njeihpoaogilklckaogpdflpfgljojlf.svg" alt="users">
+  </a>
   <a href="https://github.com/joshhn/campuslabsChromeExtention/graphs/contributors" alt="Contributors">
     <img src="https://img.shields.io/github/contributors/joshhn/campuslabsChromeExtention" />
   </a>
 </p>
 
-<!-- <div align="center">
+<div align="center">
 
-  [![Chrome](https://user-images.githubusercontent.com/53124886/111952712-34f12300-8aee-11eb-9fdd-ad579a1eb235.png)](<INSERT>)
-</div> -->
+  [![Chrome](https://user-images.githubusercontent.com/53124886/111952712-34f12300-8aee-11eb-9fdd-ad579a1eb235.png)](https://chrome.google.com/webstore/detail/depauw-university-campusl/njeihpoaogilklckaogpdflpfgljojlf)
+</div>
 
 ## What is CampusLabs Chrome Extension?
 
