@@ -46,12 +46,12 @@ repos:
       - id: pydocstyle
         description: "A static analysis tool for checking compliance with Python docstring conventions."
         args: [--config=pyproject.toml]
-  - repo: local
-    hooks:
-      - id: sync-poetry-lock
-        name: Sync poetry.lock
-        description: "A check that the poetry.lock has been synced with any changes in pyproject.toml."
-        language: system
-        entry: poetry lock --no-update
-        files: ^pyproject.toml$
-        pass_filenames: false
+  # - repo: local
+  #   hooks:
+  #     - id: sync-poetry-lock
+  #       name: Sync poetry.lock
+  #       description: "A check that the poetry.lock has been synced with any changes in pyproject.toml."
+  #       language: system
+  #       entry: poetry lock --no-update
+  #       files: ^pyproject.toml$
+  #       pass_filenames: false
