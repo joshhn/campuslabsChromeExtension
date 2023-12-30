@@ -7,4 +7,4 @@ dist/
 .vscode
 
 # Desktop Services Store file on macOS
-.DS_Store
+**/.DS_Store
